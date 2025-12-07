@@ -34,7 +34,7 @@ Full race replay functionality with real-time race status display, including:
 ![F1 data analysis telemetry visualization tool](/images/replay.png)
 
 - **P1% & OT%** :
-![F1 data analysis telemetry visualization tool](Live_ranking.png)
+![F1 data analysis telemetry visualization tool](/images/Live_ranking.png)
 
 > ⚠️ **Note**: Real-time mode is currently in testing and stability cannot be guaranteed. Please use with caution.
 
