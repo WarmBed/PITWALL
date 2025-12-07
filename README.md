@@ -12,12 +12,33 @@ It allows race engineers, sim racers, and data fans to analyze lap times, thrott
 
 A professional Formula 1 telemetry analysis workstation providing comprehensive race data analysis capabilities.
 
-![F1 data analysis telemetry visualization tool](/images/Rain.track.pitstop.tire.accident.png)
+![F1 data analysis telemetry visualization tool](/images/Live_timing.png)
 
 ## 🌟 Features Overview
 
+### Latest Features: Live Timing
+
+Full race replay functionality with real-time race status display, including:
+- **Track Map**: Visual circuit representation with driver positions
+- **Circle Map**: Circular track visualization for position tracking
+- **Lap Time Distribution**: Statistical lap time analysis across all drivers
+- **Pit Windows**: Evaluate potential position after pit stop (who will be ahead/behind)
+- **Driver Strategy**: Predict lap time performance with fuel weight and tire degradation calculations
+- **Speed Trace**: Compare driver speeds at every track position
+- **Battle Insight**: Real-time overtake probability analysis with consecutive catching detection
+![F1 data analysis telemetry visualization tool](/images/Live_timing_Detial.png)
+
+
+
+- **Relay**:
+![F1 data analysis telemetry visualization tool](/images/replay.png)
+
+- **P1% & OT%** :
+![F1 data analysis telemetry visualization tool](Live_ranking.png)
+
+> ⚠️ **Note**: Real-time mode is currently in testing and stability cannot be guaranteed. Please use with caution.
+
 ### Core Analysis Modules
-#### 🏠 Welcome Board
 Dynamic dashboard providing real-time season overview
 - **Season Progress**: Track completed and upcoming races throughout the season
 - **Weather Timeline**: Race weather forecast for the next upcoming event
