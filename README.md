@@ -1,12 +1,9 @@
-# F1-TelemetryStation-Pro
-![F1 data analysis telemetry visualization tool](/images/initialize.png)
-**F1 data analysis**
+# PITWALL
 
-English | [繁體中文](README.zh-TW.md)
 
 ## What is this?
 
-F1-TelemetryStation-Pro is an open-source **F1 data analysis** and telemetry visualization tool.  
+PitWall is an open-source **F1 data analysis** and telemetry visualization tool.  
 It allows race engineers, sim racers, and data fans to analyze lap times, throttle usage, speed traces, and driver comparisons using real Formula 1 telemetry.
 
 
