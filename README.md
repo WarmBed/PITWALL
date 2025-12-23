@@ -3,7 +3,7 @@
 
 ## What is this?
 
-PitWall is an open-source **F1 data analysis** and telemetry visualization tool.  
+PitWall is an **F1 data analysis** and telemetry visualization tool.  
 It allows race engineers, sim racers, and data fans to analyze lap times, throttle usage, speed traces, and driver comparisons using real Formula 1 telemetry.
 
 
