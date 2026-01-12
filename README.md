@@ -1,358 +1,300 @@
 # PITWALL
 
-
 ## What is this?
 
-PitWall is an open-source **F1 data analysis** and telemetry visualization tool.  
-It allows race engineers, sim racers, and data fans to analyze lap times, throttle usage, speed traces, and driver comparisons using real Formula 1 telemetry.
-
+PitWall is an **F1 data analysis** and telemetry visualization tool.
+It allows data fans to analyze lap times, throttle usage, speed traces, and driver comparisons using real Formula 1 telemetry.
 
 A professional Formula 1 telemetry analysis workstation providing comprehensive race data analysis capabilities.
 
-![F1 data analysis telemetry visualization tool](/images/Live_timing.png)
-
-## 🌟 Features Overview
-
-### Latest Features: Live Timing
-
-Full race replay functionality with real-time race status display, including:
-- **Track Map**: Visual circuit representation with driver positions
-- **Circle Map**: Circular track visualization for position tracking
-- **Lap Time Distribution**: Statistical lap time analysis across all drivers
-- **Pit Windows**: Evaluate potential position after pit stop (who will be ahead/behind)
-- **Driver Strategy**: Predict lap time performance with fuel weight and tire degradation calculations
-- **Speed Trace**: Compare driver speeds at every track position
-- **Battle Insight**: Real-time overtake probability analysis with consecutive catching detection
-![F1 data analysis telemetry visualization tool](/images/Live_timing_Detial.png)
-
-
-
-- **Relay**:
-![F1 data analysis telemetry visualization tool](/images/replay.png)
-
-- **P1% & OT%** :
-![F1 data analysis telemetry visualization tool](/images/Live_ranking.png)
-
-> ⚠️ **Note**: Real-time mode is currently in testing and stability cannot be guaranteed. Please use with caution.
-
-### Core Analysis Modules
-Dynamic dashboard providing real-time season overview
-- **Season Progress**: Track completed and upcoming races throughout the season
-- **Weather Timeline**: Race weather forecast for the next upcoming event
-- **Constructor Standings**: Live team championship rankings and points
-- **Driver Standings**: Current driver championship positions and statistics
-- **Smart Layout**: Three-column arrangement (left split: progress/weather, middle: constructor, right: driver)
-- **Auto-Update**: Automatically selects current season data and next race information
-![F1 data analysis telemetry visualization tool](/images/welcome.png)
-
-#### 🌧️ Rain Analysis Module
-Analyzes meteorological conditions throughout the race
-- **Temperature variation** per lap
-- **Rainfall tracking** and trends
-- **Weather impact** on race strategy
-
-#### 🏁 Lap Analysis Module
-In-depth single-lap performance analysis
-- Driver lap time comparison
-- Fastest lap analysis
-- Comprehensive telemetry data
-- Cross-Session Telemetry Comparison Enhanced telemetry analysis modules now support Q vs R session comparison, enabling qualifying-to-race performance analysis across all 9 telemetry modules (Speed, Brake, Throttle, Gear, RPM, Acceleration, Speed Diff, Time Diff, Distance Diff)
-![F1 data analysis telemetry visualization tool](/images/Lap.track.png)
-
-**Sub-modules:**
-- ⚡ **Speed Analysis** - Velocity tracking and comparison
-- 🛑 **Brake Analysis** - Braking pressure and points
-- ⚡ **Throttle Analysis** - Accelerator pedal position
-- ⚙️ **Gear Analysis** - Gear shifting patterns
-- 🔄 **RPM Analysis** - Engine speed monitoring
-- 📈 **Acceleration** - G-force analysis
-- 📊 **Speed Differential** - Speed difference tracking
-- 📏 **Distance Differential** - Cumulative distance gap
-
-#### 🚀 Throttle Analysis Module 
-Comprehensive throttle usage analysis and comparison
-
-**Throttle Line Chart:**
-- **Dual-driver comparison**: Compare throttle usage patterns between two drivers
-- **Per-lap percentage**: Visualize full throttle usage percentage for each lap
-- **Interactive tooltips**: Draggable tooltips with detailed lap information
-- **System settings integration**: Customize display preferences
-- **Driver 2 optimization**: Optional second driver selection (defaults to None)
-
-**Throttle Box Plot:**
-- **Statistical distribution**: Box plot visualization of throttle usage across all drivers
-- **Percentage modes**: Toggle between actual percentage or lap percentage display
-- **Min/Max tooltips**: Hover to see extreme values and outliers
-- **Multi-driver comparison**: Analyze throttle patterns for entire grid
-
-
-![F1 data analysis telemetry visualization tool](/images/throttle.png)
-
-**Key Features:**
-- 📊 Lap-by-lap throttle usage tracking
-- 🎯 Dual-driver comparison with independent selection
-- 🖱️ Draggable legend and pinnable data points
-- 📈 Real-time data point tooltips with drag support
-- ⚙️ Configurable through System Settings dialog
-- 🎨 Team-based color schemes
-
-#### 🏎️ Pitstop Analysis Module
-Strategic pitstop efficiency evaluation
-- Pitstop duration statistics
-- Stop frequency comparison
-- Team efficiency metrics
-
-![F1 data analysis telemetry visualization tool](/images/pitstop.accidient.png)
-
-#### 🗺️ Track Analysis Module
-Interactive track visualization
-- Circuit trajectory display
-- Driver position markers
-- Zoom and pan support
-
-#### 🚗 Detailed Lap Analysis
-Advanced lap time data analysis
-- Detailed lap time tables
-- Box plot visualizations
-- Statistical distribution analysis
-
-![F1 data analysis telemetry visualization tool](/images/tire.lap.detailed.rain.png)
-
-#### 🔥 Accident Analysis Module
-Race incident investigation
-- Incident timestamps
-- Involved drivers
-- Impact assessment
-
-#### 🏁 Tire Strategy Analysis
-Tire usage and strategy evaluation
-- Compound selection analysis
-- Degradation curves
-- Pit stop timing optimization
-
-#### 📊 Ideal Lap Analysis Module 
-Comprehensive theoretical best lap analysis and sector comparison
-
-**Ideal Lap Ranking Table:**
-- **Complete Grid Analysis**: Theoretical best lap times for all drivers
-- **Statistical Metrics**: Median, range, and gap calculations
-- **Team Color Coding**: Visual driver identification with standardized colors
-- **Session Summary**: Fastest laps and perfect lap achievement rates
-- **Sector Breakdown**: Individual sector performance with visual indicators (✓ = optimal, ✗ = improvable)
-- **API Integration**: Real-time data from F1T API
-
-**Ideal Lap Sector Comparison:**
-- **Sector-by-Sector Analysis**: Detailed S1, S2, S3 delta comparison
-- **Cumulative Delta Visualization**: Bar chart showing total improvement potential
-- **Sortable Columns**: Click to sort by any sector or cumulative delta
-- **Color-Coded Performance**: Unified color standards for gap displays
-![F1 data analysis telemetry visualization tool](/images/Ideal_Lap.png)
-
-
-**UI Refinements** 
-- ✅ Sector marks with color separation (green ✓, black ✗)
-- ✅ Unified color standards for all gap displays (0.2s, 0.5s thresholds)
-- ✅ Sortable cumulative delta in sector comparison table
-
-###  Version: V0.8.0 (2025-11-15)
-
-**Major Features:**
-- ✅ **Historical Circuit Analysis**: Comprehensive historical flag statistics (Yellow/Red/SC/VSC) for all circuits from 2022-2025, providing strategic insights into track characteristics and incident patterns
-
-![F1 data analysis telemetry visualization tool](/images/trackmap.png)
-
-
-**Technical Improvements:**
-- Unified translation system using `tr()` function across all telemetry modules
-- Translation key standardization (`driver_1_info`, `driver_2_info`, `race_info`, `driver_info`, `versus`)
-- Enhanced data loader architecture supporting cross-session parameter management
-
-
-
-###  Version: V0.7.0 (2025-11-08)
-
-**Major Features:**
-- ✅ **Driver Race Position Analysis**: Track position changes during race with start/finish/best/worst rankings and visual indicators (▲▼━)
-- ✅ **Qualifying Prediction Module**: ML-based FP3→Q prediction using XGBoost v3.10 track-specific models with R²/MAE metrics
-![Qualifying Prediction Module](/images/QualifyingPrediction.png)
-
-- ✅ **Vehicle Parts Changes Analysis**: FIA technical document parsing with 15 main categories, 61 sub-categories, and multi-filter system
-![Vehicle Parts Changes Analysis](/images/Vehicle Parts Changes.png)
-
-###  Version: V0.6.0 (2025-10-27)
-
-**Major Features:**
-- ✅ **Track Map Enhancement - Corner Numbering**: Added corner number annotations to track map visualization for improved position identification and reference during analysis
-- ✅ **Corner Analysis Module - Dynamic Speed Distribution**: Implements dynamic corner classification system (low/medium/high-speed corners) with speed distribution analysis for three critical phases (entry/apex/exit speed)
-
-**UI Refinements:**
-- 🎨 Corner number overlays on track map with optimal positioning
-- 🎨 Speed distribution plots with color-coded corner classifications
-- 🎨 Entry-Apex-Exit phase comparison visualization
-
-**Technical Improvements:**
-- Dynamic corner detection algorithm based on speed thresholds
-- Multi-phase telemetry data extraction and processing
-- Statistical distribution analysis for corner performance metrics
-
-![F1 data analysis telemetry visualization tool](/images/corner.png)
-### Previous Version: V0.5.0 (2025-10-25)
-
-**Major Features:**
-- ✅ **Startup Interface Enhancement**: Improved initialization screen with progress indicators and loading status to provide better user feedback during application launch
-![F1 data analysis telemetry visualization tool](/images/initialize.png)
-- ✅ **Workspace Management System**: Complete workspace functionality allowing users to save current window layouts, analysis configurations, and restore them on next startup
-![F1 data analysis telemetry visualization tool](/images/workspace.png)
-- ✅ **Tab Pop-out Feature**: Enhanced tab system with support for detaching tabs into independent floating windows for multi-monitor workflows
-![F1 data analysis telemetry visualization tool](/images/popout.png)
-**UI Refinements:**W
-- 🎨 Startup progress bar with detailed loading stages
-- 🎨 Workspace save/load dialog with preview functionality
-- 🎨 Tab drag-and-drop support for window detachment
-- 🎨 Independent window management for detached analysis modules
-
-#### 🚗 All Drivers Straight Line Speed Analysis (Experimental)
-Comprehensive straight-line acceleration and maximum speed analysis for all drivers
-- **Maximum Speed Tracking**: Peak velocity achieved on track straights
-- **Segment-based Analysis**: Track-specific speed zones and acceleration corridors
-- **Performance Visualization**: Bar charts showing relative acceleration times
-- **Team Color Coding**: Visual driver identification with standardized team colors
-- **Sortable Data Tables**: Click-to-sort functionality for all performance metrics
-![F1 data analysis telemetry visualization tool](/images/all_driver_speed .png)
-
-#### 🛑 All Drivers Brake Performance Analysis (Experimental)
-Detailed braking efficiency and deceleration analysis across the entire grid
-- **Maximum Deceleration**: Peak G-force values during braking zones
-- **Brake Distance Analysis**: Distance required for speed reduction
-- **Brake Time Measurement**: Duration of braking events
-- **Speed Reduction Tracking**: Start/end speeds for braking zones
-- **Visual Performance Bars**: Brake time visualization with relative scaling
-- **Reference Zone Display**: Track-specific brake zone distance markers
-![F1 data analysis telemetry visualization tool](/images/all_driver_brake.png)
-
-
-**Technical Improvements:**
-- Workspace serialization system for MDI layout persistence
-- Tab window state management with geometry preservation
-- Multi-window coordination for synchronized parameter updates
-- Enhanced splash screen with real-time initialization feedback
-
-### Previous Version: V0.4.0 (2025-10-13)
-**Major Features:**
-- ✅ **Ideal Lap S1/S2/S3 Display**: Complete sector time display for ideal lap analysis modules (sector heatmap, comparison chart, ranking table)
-- ✅ **Time-Axis Mode for Lap Analysis**: Time-based X-axis option for all telemetry charts (speed, brake, throttle, RPM, gear, acceleration)
-- ✅ **Time Diff Analysis Module**: New dedicated module for lap time difference analysis with cumulative delta visualization
-- ✅ **Welcome Page Dashboard**: Integrated dashboard displaying driver standings, constructor standings, season progress, and weather timeline
-
-**UI Refinements:**
-- 🎨 S1/S2/S3 sector time display in ideal lap sector heatmap
-- 🎨 Time-axis toggle available in lap analysis chart widgets
-- 🎨 Welcome page with real-time championship standings and weather forecast
-
-**Technical Improvements:**
-- Time data extraction in telemetry data loader base (`_extract_time_data()`)
-- `set_time_axis_mode()` method implemented across all lap analysis modules
-- Time diff analysis MDI, data loader, and chart widget architecture
-- Welcome tab creation with multiple MDI integration (`create_welcome_tab()`)
-
-**Bug Fixes:**
-- ✅ **EXE Language Switching Fixed**: Language configuration now persists correctly in EXE mode using user directory (`~/.f1telemetrystation/`)
-- ✅ **PyInstaller Module Coverage**: Updated `F1T_GUI.spec` hiddenimports from 48 to 125 modules for complete Japanese menu support
-
-### Previous Version: V0.3.0 (2025-10-10)
-**Major Features:**
-- ✅ **Ideal Lap Ranking Analysis**: Comprehensive theoretical best lap comparison for all drivers
-- ✅ **Ideal Lap Sector Comparison**: Detailed sector-by-sector performance analysis with cumulative delta visualization
-- ✅ **Interactive Lap Analysis Tree**: Hierarchical lap data view with smart filtering and click-to-analyze functionality
-- ✅ **Box Plot Typography Standardization**: Unified 8pt font across all chart elements for consistency
-
-**UI Refinements:**
-- 🎨 Sector marks with mixed color display (green ✓ for optimal, black ✗ for improvable)
-- 🎨 Unified color standards for gap displays (0.2s, 0.5s thresholds)
-- 🎨 Sortable cumulative delta column in sector comparison table
-- 🎨 Team color coding with black text for better readability
-
-**Technical Improvements:**
-- Custom `SectorMarksDelegate` for per-character color rendering
-- Shared color configuration module for visual consistency
-- Enhanced sorting functionality with dual DisplayRole/UserRole data
-- API-first data loading architecture
-
-### Previous Version: V0.2.1 (2025-10-09)
-- Colour palette system gains API-only mode toggle
-- Refreshed 2025 team/driver colours with API fallback hardening
-- Lap/Throttle box plots now render median & outliers in black
-- Main window and packaging metadata bumped to V0.2.1
-
-### Previous Version: V0.2.0 (2025-10-08)
-- Added Throttle Analysis Module (Line Chart + Box Plot)
-- Enhanced tooltip system with drag support
-- Improved dual-driver comparison
-- Multiple bug fixes and UI improvements
-
-### Legacy Version: V0.1.0
-- Initial release with core analysis modules
-- Basic telemetry analysis
-- MDI workspace system
-
-
-## 🔗 Special Features
-
-### Linkage System
-- **X-axis Synchronization**: Multiple telemetry charts display the same position
-- **Click Linkage**: Click on one chart, others follow automatically
-- **Master Toggle**: Global enable/disable for linkage functionality
-
-### Workspace Management
-- **Save Workspace**: Preserve current analysis configuration
-- **Load Workspace**: Quickly restore previous analysis environment
-- **Multi-tab Support**: Open multiple analysis perspectives simultaneously
-
-### MDI Window System
-- **Free Arrangement**: Drag and resize windows freely
-- **Cascade/Tile**: Quick window layout organization
-- **Pop-out Feature**: Display analysis windows independently
-
-### Enhanced Chart Interactions (NEW in V0.2.0)
-- **Draggable Tooltips**: Pin and drag tooltip boxes to any position
-- **Data Point Pinning**: Click to pin data points with persistent tooltips
-- **Connection Lines**: Dashed lines connecting tooltips to original data points
-- **Dual-driver Tooltip Separation**: Independent tooltips for each driver's data
-- **Draggable Legend**: Reposition chart legends for better visibility
-
-## 🌐 System Highlights
-
-- **Multi-language Support**: 中文 🇹🇼 / English 🇺🇸 / 日本語 🇯🇵
-- **API-ONLY Mode**: Data retrieval exclusively through REST API 
-- **Parameter Synchronization**: Sync year/race/session settings between main and sub-windows
-- **Modular Design**: Independent and extensible analysis modules
-- **Dynamic Import Architecture**: Optimized memory usage with on-demand module loading
-
-
-## 👥 Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
-
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- [FastF1](https://github.com/theOehrly/Fast-F1) API Contributors
-- [OpenF1](https://openf1.org/) API Contributors
-- PyQt5 Framework
-- All contributors and testers
-
-## 📧 Contact
-
-- **GitHub**: [WarmBed/F1-TelemetryStation-Pro](https://github.com/WarmBed/F1-TelemetryStation-Pro)
-- **Issues**: [Report a Bug](https://github.com/WarmBed/F1-TelemetryStation-Pro/issues)
-
+![PITWALL](/images/Page01.png)
 
 ---
 
-**Made with ❤️ for F1 enthusiasts and data analysts**
+## 1. Historical Analysis
 
-**Star ⭐ this repository if you find it useful!**
+This group contains deep post-race analysis tools, covering strategy, tires, incidents, and track/environmental context.
+
+![PITWALL](/images/Page02.png)
+
+### 1.1 Temperature Analysis
+
+This module visualizes environmental data throughout the race weekend. In addition to track temperature (Track Temp) and air temperature (Air Temp), it integrates live data streams for humidity, pressure, and rainfall. By aligning everything on a shared timeline, you can precisely analyze how environment variables affect lap-time performance on specific laps or tire degradation trends.
+
+It supports switching year and event dynamically, and provides an auto-scaling time-axis chart.
+
+### 1.2 Track Analysis
+
+This module renders a high-precision circuit map and labels all official corner numbers and DRS detection/activation zones. It uses vector data from the API to draw track geometry, and supports overlays such as driver trajectories or telemetry layers (e.g., a speed heatmap).
+
+It includes coordinate conversion logic to map GPS coordinates into on-screen XY plotting coordinates, making it a foundational tool for analyzing racing lines and track characteristics.
+
+### 1.3 Pitstop Analysis
+
+This module provides detailed pitstop analytics with two views: a team summary and a detailed log.
+
+It calculates each driver’s pitstop count, average stationary time, and total pit loss (in/out + stationary). The module includes smart filters to distinguish normal pitstops from drive-throughs, and shows compound changes before/after each stop.
+
+If the API connection fails, it automatically falls back to a local `pit_stops.json` file.
+
+### 1.4 Accident & Flags Analysis
+
+This tool focuses on interruptions and race-control events, including Yellow Flag, Red Flag, Virtual Safety Car (VSC), and Safety Car (SC). It presents these events on a Gantt-chart-style timeline, showing duration and the lap on which they occur.
+
+This is critical for understanding race rhythm changes, strategy decision points, and effective racing laps, and it can be correlated with specific DNF causes.
+
+### 1.5 Tire Strategy Analysis
+
+This is the core module for analyzing tire usage strategy. It uses intuitive horizontal stint bars for each driver: each bar segment represents one set of tires, with colors mapped to compounds (red/yellow/white/green/blue) and segment length mapped to stint length.
+
+Internally, it calculates average lap time and degradation trends per stint, and labels whether a stint started on new or used tires. This lets you quickly compare one-stop vs multi-stop strategies across teams.
+
+### 1.6 Driver Run Position
+
+This module plots a position chart for the entire race (position vs lap). It includes special handling for DNFs to keep position calculations correct for cars still running.
+
+An interactive legend allows quickly filtering drivers for comparison—e.g., focusing on the top 3 battle or a tight midfield fight. Data is sourced directly from official timing position-by-lap records.
+
+### 1.7 Traffic Analysis
+
+This advanced module quantifies traffic conditions encountered during the race. By computing gaps to cars ahead/behind, it determines whether a driver is in clean air or impacted by dirty air/wake.
+
+Results are typically shown as heatmaps or interval charts, highlighting what percentage of race distance a driver was blocked. This is essential for evaluating true pace and pit-window choices.
+
+---
+
+## 2. Telemetry Analysis
+
+This group provides sample-rate (Hz) vehicle physics data analysis for precise comparisons of driving style and car performance.
+
+![PITWALL](/images/Page03.png)
+
+### 2.1 Main Telemetry Analysis
+
+The most powerful telemetry tool in the system. It supports synchronized display of multiple channels including Speed, RPM, Gear, Throttle, Brake, and DRS status.
+
+It uses a high-performance plotting engine, supports multi-driver overlay comparison, and includes cursor synchronization: moving the cursor in one chart updates all related charts to the same time point.
+
+This module relies on `fastf1` for alignment and resampling.
+
+### 2.2 Channel-Specific Analysis
+
+These modules are optimized, deeper views for specific signals:
+
+* **Speed Analysis**
+    * Focuses on speed-curve detail with finer Y-axis scaling and smoothing to observe minimum corner speed and end-of-straight top speed.
+
+* **Brake Analysis**
+    * Analyzes brake input pressure and duration to identify braking points and trail-braking technique.
+
+* **Throttle Analysis**
+    * Examines throttle opening changes, especially useful for studying traction control and throttle modulation on corner exit.
+
+* **Gear & RPM**
+    * Often used together to analyze shift points, gearing strategy, and engine output characteristics across RPM ranges.
+
+* **Acceleration (Generic)**
+    * Computes longitudinal and lateral acceleration to generate a G-G diagram, useful for evaluating tire grip limits and overall cornering performance.
+
+### 2.3 Delta Analysis
+
+* Directly computes speed differences between two cars at the same track position to show who is faster in corners/straights.
+* Integrates speed deltas to estimate spatial distance changes, useful for analyzing how gaps open/close during a chase.
+* Provides the classic time-delta curve over a lap relative to a reference lap, helping identify where time is gained or lost.
+
+---
+
+## 3. Lap Performance
+
+This group focuses on statistical lap-time characteristics, consistency, and long-run performance.
+
+![PITWALL](/images/Page04.png)
+
+### 3.1 Detailed Lap Data
+
+Provides a feature-rich table listing detailed information for every lap of selected drivers. Columns include lap number, lap time, sector times (S1/S2/S3), speed trap, tire compound and age.
+
+It also marks abnormal laps (e.g., yellow-flag affected, out-laps after a pit stop) and color-codes personal best (green) and overall best (purple), making it the preferred tool for data integrity checks.
+
+### 3.2 Lap Time Box Plot
+
+Uses a box-and-whisker plot to visualize lap-time distribution, showing median, IQR, and outliers.
+
+This helps filter pit laps or traffic-impacted laps to reflect true race pace and consistency. A narrower box indicates a more consistent driver.
+
+### 3.3 Throttle Corner Analysis
+
+Combines throttle data with track corners. It computes metrics such as average throttle opening or full-throttle ratio through specific corners, visualized via box plots or line charts.
+
+This helps evaluate driver confidence, grip conditions, and corner-exit throttle application—key indicators of a driver’s cornering limit.
+
+### 3.4 Pedal Behavior Analysis
+![PITWALL](/images/Page16.png)
+This module presents the pedal usage status distribution for each driver using a stacked bar chart. The system classifies pedal behavior into four states:
+* **Throttle Only**: Only the throttle pedal is pressed, typically during straight-line acceleration or full-throttle exit.
+* **Brake Only**: Only the brake pedal is pressed, corresponding to heavy braking zones before corner entry.
+* **Trail Braking**: Both throttle and brake are operated simultaneously. This is an advanced technique used to maintain balance during corner entry and maximize cornering speed.
+* **Coasting**: Neither pedal is pressed, indicating the driver is coasting due to inertia or performing Lift and Coast for fuel saving.
+
+### 3.5 Long Run Analysis
+
+Designed for FP2 long-run simulation analysis. It includes a **stint detection algorithm** to automatically identify continuous, representative timed laps.
+
+Core capability includes **fuel correction**: it estimates corrected lap time by removing fuel weight effects lap-by-lap, allowing you to isolate pure tire degradation rate. This is a key input for race pitstop strategy planning.
+
+---
+
+## 4. Ideal Lap & Sectors
+
+This group reconstructs best sector times to explore theoretical performance limits.
+
+![PITWALL](/images/Page05.png)
+
+### 4.1 Ideal Lap Ranking
+
+Computes each driver’s theoretical best lap time by summing their best S1, S2, and S3 from the session.
+
+It compares the theoretical time with actual pole time and calculates the “potential gap,” revealing whether a driver left time on the table due to mistakes or whether the car has hidden performance strengths in specific sectors.
+
+---
+
+## 5. Speed & Corner Analysis
+
+### 5.1 Straight Line Speed
+
+![PITWALL](/images/Page06.png)
+
+Collects and compares top speed/trap speed at key straight endpoints. This reflects drag level and engine power.
+
+The module typically filters out abnormal data affected by DRS or strong tow to evaluate intrinsic straight-line performance in clean air, helping assess whether downforce settings are too aggressive.
+
+### 5.2 Brake & Acceleration Performance
+
+Uses scatter plots to analyze deceleration performance in heavy braking zones, and compares accumulated longitudinal G during corner-exit acceleration.
+
+These metrics correlate with mechanical grip and braking system effectiveness, separating cars that excel on stop-and-go tracks from those that are stronger in flowing corners.
+
+![PITWALL](/images/Page08.png)
+
+### 5.3 Corner Performance Classification
+
+Classifies corners by speed into low-speed, medium-speed, and high-speed categories, and computes average minimum apex speed per category.
+
+This reveals balance under different aero-load regimes—for example, a team may be extremely fast in aero-dependent high-speed corners but struggle in mechanical-grip low-speed corners.
+
+![PITWALL](/images/Page07.png)
+
+---
+
+## 6. AI Prediction Models
+
+![PITWALL](/images/Page09.png)
+
+* **FP3/FP2 → Qualifying Prediction**
+    Collects practice lap times, tire compounds, and fuel-load assumptions, then uses regression models to predict each driver’s potential fastest qualifying lap.
+
+* **Qualifying → Race Prediction**
+    Based on qualifying results and historical overtaking difficulty coefficients for each circuit, it simulates race finishing-position distributions to provide expected-value references for strategy.
+
+---
+
+## 7. Multi-Season Analysis
+
+### 7.1 Historical Track Map
+
+![PITWALL](/images/Page010.png)
+
+This module combines a track map, elevation chart, and year-by-year flag statistics table. It fetches historical incident locations (X/Y coordinates) and types via API and marks them on the circuit map.
+
+It also analyzes elevation change to help identify whether incident hotspots are located at blind corners or crested sections. The right panel summarizes Yellow/Red/SC/VSC counts over the last four seasons (2022–2025) for a macro view of track safety characteristics.
+
+### 7.2 Season Start Reaction
+
+![PITWALL](/images/Page11.png)
+
+Focuses on drivers’ start performance across the season, using 0–50 km/h acceleration time distribution.
+
+It uses box plots to show median reaction/performance and stability range (IQR). This filters out extreme cases from rain starts or start incidents, reflecting true average start performance. Team-color styling is supported for easy teammate comparisons.
+
+---
+
+## 8. Live Timing
+
+![PITWALL](/images/Page12.png)
+
+### 8.1 Core Monitoring
+
+* **Ranking Tower**
+    Highly optimized live leaderboard showing position, driver code, tire info, sector times (S1/S2/S3), and current state (Pitting/Out), with animated sorting and team colors.
+
+* **Track Map**
+    Live car positions on the circuit. Compared to static analysis maps, this focuses on relative positions and chasing dynamics, with lead group highlighting.
+
+* **Circle Map**
+    Abstracts the circuit into a ring to visualize gaps in seconds. This is ideal for judging whether a Safety Car window or pit window is safe.
+
+* **Track & Weather**
+    Top info bar showing event name, session time, lap progress, and track status (green/yellow/red/SC/VSC). A second row provides detailed weather: air temp, track temp, humidity, pressure, wind speed, and wind direction.
+
+### 8.2 Strategy & Prescription
+
+![PITWALL](/images/Page15.png)
+
+* **Driver Strategy**
+    Compares predicted vs actual lap-time curves, including prediction ranges, SC regions, and pit markers to evaluate whether performance matches the model.
+
+* **Battle Insight**
+    Deep-dive analysis for a selected battle pair, computing speed delta, DRS availability, and predicted overtake lap in real time.
+
+* **Chase Strategy**
+    A chase calculator that predicts whether the chasing car can enter DRS range before the race ends, based on lap-time delta and remaining laps.
+
+* **Pit Window**
+    Estimates rejoin position after a pit stop and marks it on the map, factoring pit lane time loss and traffic conditions.
+
+* **Tyre Strategy**
+    Monitors tire age and predicted remaining life for all drivers. Combined with Pirelli degradation curves, it warns about potential performance cliffs.
+
+### 8.3 Telemetry & Performance
+
+![PITWALL](/images/Page13.png)
+
+* **Real-time Telemetry Traces**
+    Live waveforms with multi-driver comparison:
+    * `speed_trace`: Speed
+    * `throttle_trace`: Throttle
+    * `brake_trace`: Brake
+    * `rpm_trace`: RPM
+    * `gear_trace`: Gear
+    * `drs_trace`: DRS state
+
+* **Sector Comparison**
+    Compares two drivers’ deltas for a selected sector (S1/S2/S3) with a dual-line design that clearly shows where gaps are created.
+
+* **SF% History**
+    Stint Fuel Saving Percentage history. Positive values indicate pushing; negative values indicate lift-and-coast fuel saving. Color intensity (bright/dark green) indicates magnitude.
+
+* **Top Speed History**
+    A per-lap top-speed table. Purple text marks personal top speed, useful for monitoring engine modes and tow effects.
+
+### 8.4 History & Stats
+
+![PITWALL](/images/Page14.png)
+
+* **Lap History Tables**
+    Four independent tables: `Lap Time`, `S1`, `S2`, `S3`. Heatmap tables for every lap, auto-marking overall best (purple) and personal best (green).
+
+* **Lap Time Distribution**
+    Visualizes lap-time distribution across the field. Using fastest lap as a baseline, it plots gaps to the leader on the vertical axis and shows tire compound on the right to reveal group structure and dropped-back drivers.
+
+* **Live Traffic Timeline**
+    Heatmap timeline showing whether each driver is in “Clean Air” (green) or “Traffic” (orange) per lap, based on distance to the car ahead.
+
+* **Traffic Distance**
+    A statistics table quantifying traffic ratio and laps affected. Data is available only in API-only mode from JSON.
+
+### 8.5 Others
+
+* **Race Control**
+    Live stream of race-control messages including flag changes, investigations, and penalties, with keyword filtering.
+
