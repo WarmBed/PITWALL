@@ -2,12 +2,18 @@
 
 ## What is this?
 
+<<<<<<< HEAD
 PitWall is an **F1 data analysis** and telemetry visualization tool.
 It allows data fans to analyze lap times, throttle usage, speed traces, and driver comparisons using real Formula 1 telemetry.
+=======
+PitWall is an **F1 data analysis** and telemetry visualization tool.  
+It allows race engineers, sim racers, and data fans to analyze lap times, throttle usage, speed traces, and driver comparisons using real Formula 1 telemetry.
+
+>>>>>>> f97bbd3d09a013dec96e96b3e630acce221eabff
 
 A professional Formula 1 telemetry analysis workstation providing comprehensive race data analysis capabilities.
 
-![PITWALL](/images/Page01.png)
+![PITWALL](/images/page01.png)
 
 ---
 
@@ -15,7 +21,7 @@ A professional Formula 1 telemetry analysis workstation providing comprehensive 
 
 This group contains deep post-race analysis tools, covering strategy, tires, incidents, and track/environmental context.
 
-![PITWALL](/images/Page02.png)
+![PITWALL](/images/page02.png)
 
 ### 1.1 Temperature Analysis
 
@@ -67,7 +73,7 @@ Results are typically shown as heatmaps or interval charts, highlighting what pe
 
 This group provides sample-rate (Hz) vehicle physics data analysis for precise comparisons of driving style and car performance.
 
-![PITWALL](/images/Page03.png)
+![PITWALL](/images/page03.png)
 
 ### 2.1 Main Telemetry Analysis
 
@@ -108,7 +114,7 @@ These modules are optimized, deeper views for specific signals:
 
 This group focuses on statistical lap-time characteristics, consistency, and long-run performance.
 
-![PITWALL](/images/Page04.png)
+![PITWALL](/images/page04.png)
 
 ### 3.1 Detailed Lap Data
 
@@ -129,7 +135,7 @@ Combines throttle data with track corners. It computes metrics such as average t
 This helps evaluate driver confidence, grip conditions, and corner-exit throttle application—key indicators of a driver’s cornering limit.
 
 ### 3.4 Pedal Behavior Analysis
-![PITWALL](/images/Page16.png)
+![PITWALL](/images/page16.png)
 This module presents the pedal usage status distribution for each driver using a stacked bar chart. The system classifies pedal behavior into four states:
 * **Throttle Only**: Only the throttle pedal is pressed, typically during straight-line acceleration or full-throttle exit.
 * **Brake Only**: Only the brake pedal is pressed, corresponding to heavy braking zones before corner entry.
@@ -148,7 +154,7 @@ Core capability includes **fuel correction**: it estimates corrected lap time by
 
 This group reconstructs best sector times to explore theoretical performance limits.
 
-![PITWALL](/images/Page05.png)
+![PITWALL](/images/page05.png)
 
 ### 4.1 Ideal Lap Ranking
 
@@ -162,7 +168,7 @@ It compares the theoretical time with actual pole time and calculates the “pot
 
 ### 5.1 Straight Line Speed
 
-![PITWALL](/images/Page06.png)
+![PITWALL](/images/page06.png)
 
 Collects and compares top speed/trap speed at key straight endpoints. This reflects drag level and engine power.
 
@@ -174,7 +180,7 @@ Uses scatter plots to analyze deceleration performance in heavy braking zones, a
 
 These metrics correlate with mechanical grip and braking system effectiveness, separating cars that excel on stop-and-go tracks from those that are stronger in flowing corners.
 
-![PITWALL](/images/Page08.png)
+![PITWALL](/images/page08.png)
 
 ### 5.3 Corner Performance Classification
 
@@ -182,13 +188,13 @@ Classifies corners by speed into low-speed, medium-speed, and high-speed categor
 
 This reveals balance under different aero-load regimes—for example, a team may be extremely fast in aero-dependent high-speed corners but struggle in mechanical-grip low-speed corners.
 
-![PITWALL](/images/Page07.png)
+![PITWALL](/images/page07.png)
 
 ---
 
 ## 6. AI Prediction Models
 
-![PITWALL](/images/Page09.png)
+![PITWALL](/images/page09.png)
 
 * **FP3/FP2 → Qualifying Prediction**
     Collects practice lap times, tire compounds, and fuel-load assumptions, then uses regression models to predict each driver’s potential fastest qualifying lap.
@@ -202,7 +208,7 @@ This reveals balance under different aero-load regimes—for example, a team may
 
 ### 7.1 Historical Track Map
 
-![PITWALL](/images/Page010.png)
+![PITWALL](/images/page010.png)
 
 This module combines a track map, elevation chart, and year-by-year flag statistics table. It fetches historical incident locations (X/Y coordinates) and types via API and marks them on the circuit map.
 
@@ -210,7 +216,7 @@ It also analyzes elevation change to help identify whether incident hotspots are
 
 ### 7.2 Season Start Reaction
 
-![PITWALL](/images/Page11.png)
+![PITWALL](/images/page11.png)
 
 Focuses on drivers’ start performance across the season, using 0–50 km/h acceleration time distribution.
 
@@ -220,7 +226,7 @@ It uses box plots to show median reaction/performance and stability range (IQR).
 
 ## 8. Live Timing
 
-![PITWALL](/images/Page12.png)
+![PITWALL](/images/page12.png)
 
 ### 8.1 Core Monitoring
 
@@ -238,7 +244,7 @@ It uses box plots to show median reaction/performance and stability range (IQR).
 
 ### 8.2 Strategy & Prescription
 
-![PITWALL](/images/Page15.png)
+![PITWALL](/images/page15.png)
 
 * **Driver Strategy**
     Compares predicted vs actual lap-time curves, including prediction ranges, SC regions, and pit markers to evaluate whether performance matches the model.
@@ -257,7 +263,7 @@ It uses box plots to show median reaction/performance and stability range (IQR).
 
 ### 8.3 Telemetry & Performance
 
-![PITWALL](/images/Page13.png)
+![PITWALL](/images/page13.png)
 
 * **Real-time Telemetry Traces**
     Live waveforms with multi-driver comparison:
@@ -279,7 +285,7 @@ It uses box plots to show median reaction/performance and stability range (IQR).
 
 ### 8.4 History & Stats
 
-![PITWALL](/images/Page14.png)
+![PITWALL](/images/page14.png)
 
 * **Lap History Tables**
     Four independent tables: `Lap Time`, `S1`, `S2`, `S3`. Heatmap tables for every lap, auto-marking overall best (purple) and personal best (green).
