@@ -1,0 +1,832 @@
+{
+    "Weather": {
+        "AirTemp_Start": 24.3,
+        "AirTemp_End": 22.9,
+        "TrackTemp_Start": 43.3,
+        "TrackTemp_End": 37.7,
+        "Humidity": 65.1,
+        "WindSpeed": 1.2
+    },
+    "Low": [],
+    "Mid": [],
+    "High": [],
+    "Long_Runs": [
+        {
+            "Driver": "4",
+            "Stint_ID": 3,
+            "Compound": "MEDIUM",
+            "Laps": 9,
+            "Avg_Pace": 81.921,
+            "Degradation": -0.1112,
+            "Consistency": 0.308,
+            "Lap_Numbers": [
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0
+            ],
+            "Lap_Times": [
+                82.246,
+                82.446,
+                81.993,
+                82.112,
+                81.916,
+                81.815,
+                81.82,
+                81.466,
+                81.474
+            ],
+            "Color": "#FF8000"
+        },
+        {
+            "Driver": "5",
+            "Stint_ID": 5,
+            "Compound": "MEDIUM",
+            "Laps": 9,
+            "Avg_Pace": 83.994,
+            "Degradation": -0.2836,
+            "Consistency": 0.847,
+            "Lap_Numbers": [
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0,
+                27.0
+            ],
+            "Lap_Times": [
+                85.012,
+                84.939,
+                84.223,
+                85.238,
+                83.93,
+                83.013,
+                83.377,
+                83.082,
+                83.13
+            ],
+            "Color": "#52E252"
+        },
+        {
+            "Driver": "6",
+            "Stint_ID": 4,
+            "Compound": "MEDIUM",
+            "Laps": 9,
+            "Avg_Pace": 83.123,
+            "Degradation": -0.1818,
+            "Consistency": 1.233,
+            "Lap_Numbers": [
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0
+            ],
+            "Lap_Times": [
+                83.047,
+                86.445,
+                81.932,
+                82.452,
+                83.304,
+                82.67,
+                83.012,
+                82.75,
+                82.496
+            ],
+            "Color": "#6692FF"
+        },
+        {
+            "Driver": "7",
+            "Stint_ID": 3,
+            "Compound": "MEDIUM",
+            "Laps": 12,
+            "Avg_Pace": 82.726,
+            "Degradation": 0.0514,
+            "Consistency": 0.327,
+            "Lap_Numbers": [
+                17.0,
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0,
+                27.0,
+                28.0
+            ],
+            "Lap_Times": [
+                82.757,
+                82.597,
+                82.557,
+                82.474,
+                82.557,
+                82.763,
+                82.669,
+                82.378,
+                82.597,
+                82.604,
+                83.123,
+                83.635
+            ],
+            "Color": "#0093CC"
+        },
+        {
+            "Driver": "10",
+            "Stint_ID": 3,
+            "Compound": "SOFT",
+            "Laps": 10,
+            "Avg_Pace": 83.723,
+            "Degradation": 0.0032,
+            "Consistency": 1.742,
+            "Lap_Numbers": [
+                17.0,
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0
+            ],
+            "Lap_Times": [
+                82.294,
+                88.45,
+                82.203,
+                82.521,
+                82.858,
+                83.282,
+                83.259,
+                83.609,
+                84.071,
+                84.685
+            ],
+            "Color": "#0093CC"
+        },
+        {
+            "Driver": "12",
+            "Stint_ID": 5,
+            "Compound": "HARD",
+            "Laps": 11,
+            "Avg_Pace": 82.318,
+            "Degradation": -0.1294,
+            "Consistency": 0.763,
+            "Lap_Numbers": [
+                17.0,
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0,
+                27.0
+            ],
+            "Lap_Times": [
+                82.699,
+                82.159,
+                84.563,
+                82.301,
+                82.124,
+                82.185,
+                81.97,
+                81.961,
+                81.9,
+                81.485,
+                82.156
+            ],
+            "Color": "#27F4D2"
+        },
+        {
+            "Driver": "14",
+            "Stint_ID": 3,
+            "Compound": "MEDIUM",
+            "Laps": 13,
+            "Avg_Pace": 87.174,
+            "Degradation": 1.7867,
+            "Consistency": 14.991,
+            "Lap_Numbers": [
+                14.0,
+                15.0,
+                16.0,
+                17.0,
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0
+            ],
+            "Lap_Times": [
+                83.876,
+                83.27,
+                83.109,
+                82.57,
+                82.648,
+                82.888,
+                82.585,
+                82.965,
+                82.715,
+                82.416,
+                82.689,
+                82.441,
+                139.086
+            ],
+            "Color": "#229971"
+        },
+        {
+            "Driver": "16",
+            "Stint_ID": 5,
+            "Compound": "MEDIUM",
+            "Laps": 13,
+            "Avg_Pace": 82.833,
+            "Degradation": 0.0977,
+            "Consistency": 2.488,
+            "Lap_Numbers": [
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0,
+                27.0,
+                28.0,
+                29.0,
+                30.0
+            ],
+            "Lap_Times": [
+                83.237,
+                82.555,
+                82.457,
+                82.614,
+                82.167,
+                81.771,
+                81.695,
+                81.207,
+                82.618,
+                82.873,
+                91.143,
+                80.825,
+                81.665
+            ],
+            "Color": "#E80020"
+        },
+        {
+            "Driver": "18",
+            "Stint_ID": 4,
+            "Compound": "MEDIUM",
+            "Laps": 12,
+            "Avg_Pace": 83.146,
+            "Degradation": -0.0484,
+            "Consistency": 1.453,
+            "Lap_Numbers": [
+                15.0,
+                16.0,
+                17.0,
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0
+            ],
+            "Lap_Times": [
+                82.684,
+                82.648,
+                83.284,
+                82.524,
+                87.899,
+                82.365,
+                82.48,
+                82.696,
+                82.554,
+                82.733,
+                82.983,
+                82.897
+            ],
+            "Color": "#229971"
+        },
+        {
+            "Driver": "22",
+            "Stint_ID": 4,
+            "Compound": "MEDIUM",
+            "Laps": 15,
+            "Avg_Pace": 82.58,
+            "Degradation": 0.0115,
+            "Consistency": 0.173,
+            "Lap_Numbers": [
+                13.0,
+                14.0,
+                15.0,
+                16.0,
+                17.0,
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0,
+                27.0
+            ],
+            "Lap_Times": [
+                82.392,
+                82.72,
+                82.362,
+                82.421,
+                82.508,
+                82.635,
+                82.496,
+                82.594,
+                83.083,
+                82.469,
+                82.563,
+                82.635,
+                82.753,
+                82.488,
+                82.588
+            ],
+            "Color": "#6692FF"
+        },
+        {
+            "Driver": "27",
+            "Stint_ID": 4,
+            "Compound": "MEDIUM",
+            "Laps": 11,
+            "Avg_Pace": 88.393,
+            "Degradation": 2.2233,
+            "Consistency": 15.449,
+            "Lap_Numbers": [
+                13.0,
+                14.0,
+                15.0,
+                16.0,
+                17.0,
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0
+            ],
+            "Lap_Times": [
+                89.3,
+                82.059,
+                82.477,
+                82.448,
+                82.72,
+                83.098,
+                85.466,
+                82.305,
+                82.34,
+                83.285,
+                136.822
+            ],
+            "Color": "#52E252"
+        },
+        {
+            "Driver": "30",
+            "Stint_ID": 4,
+            "Compound": "MEDIUM",
+            "Laps": 11,
+            "Avg_Pace": 83.4,
+            "Degradation": -0.0766,
+            "Consistency": 0.539,
+            "Lap_Numbers": [
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0,
+                27.0,
+                28.0
+            ],
+            "Lap_Times": [
+                84.261,
+                83.801,
+                83.314,
+                83.936,
+                83.156,
+                82.773,
+                83.248,
+                83.035,
+                82.711,
+                84.235,
+                82.933
+            ],
+            "Color": "#3671C6"
+        },
+        {
+            "Driver": "31",
+            "Stint_ID": 4,
+            "Compound": "MEDIUM",
+            "Laps": 11,
+            "Avg_Pace": 88.87,
+            "Degradation": 2.7028,
+            "Consistency": 16.972,
+            "Lap_Numbers": [
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0,
+                27.0,
+                28.0,
+                29.0,
+                30.0
+            ],
+            "Lap_Times": [
+                83.12,
+                83.242,
+                83.147,
+                83.066,
+                86.055,
+                82.885,
+                83.199,
+                83.204,
+                83.196,
+                83.984,
+                142.474
+            ],
+            "Color": "#B6BABD"
+        },
+        {
+            "Driver": "44",
+            "Stint_ID": 5,
+            "Compound": "MEDIUM",
+            "Laps": 12,
+            "Avg_Pace": 82.228,
+            "Degradation": -0.1436,
+            "Consistency": 0.543,
+            "Lap_Numbers": [
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0,
+                27.0,
+                28.0,
+                29.0
+            ],
+            "Lap_Times": [
+                83.332,
+                82.774,
+                82.671,
+                82.188,
+                82.705,
+                82.253,
+                82.086,
+                81.85,
+                82.003,
+                82.043,
+                81.297,
+                81.538
+            ],
+            "Color": "#E80020"
+        },
+        {
+            "Driver": "55",
+            "Stint_ID": 5,
+            "Compound": "MEDIUM",
+            "Laps": 11,
+            "Avg_Pace": 83.208,
+            "Degradation": -0.0833,
+            "Consistency": 2.509,
+            "Lap_Numbers": [
+                16.0,
+                17.0,
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0
+            ],
+            "Lap_Times": [
+                82.513,
+                82.153,
+                82.173,
+                82.338,
+                91.064,
+                83.355,
+                82.728,
+                82.337,
+                82.085,
+                82.097,
+                82.445
+            ],
+            "Color": "#64C4FF"
+        },
+        {
+            "Driver": "63",
+            "Stint_ID": 4,
+            "Compound": "HARD",
+            "Laps": 14,
+            "Avg_Pace": 84.721,
+            "Degradation": 0.1758,
+            "Consistency": 6.114,
+            "Lap_Numbers": [
+                15.0,
+                16.0,
+                17.0,
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0,
+                27.0,
+                28.0
+            ],
+            "Lap_Times": [
+                82.244,
+                81.755,
+                82.0,
+                88.589,
+                82.411,
+                82.201,
+                82.037,
+                81.739,
+                92.527,
+                103.727,
+                81.646,
+                81.582,
+                81.876,
+                81.763
+            ],
+            "Color": "#27F4D2"
+        },
+        {
+            "Driver": "81",
+            "Stint_ID": 3,
+            "Compound": "MEDIUM",
+            "Laps": 9,
+            "Avg_Pace": 82.174,
+            "Degradation": -0.0516,
+            "Consistency": 0.296,
+            "Lap_Numbers": [
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0
+            ],
+            "Lap_Times": [
+                82.908,
+                82.139,
+                81.84,
+                82.288,
+                82.175,
+                82.004,
+                81.864,
+                82.202,
+                82.146
+            ],
+            "Color": "#FF8000"
+        }
+    ],
+    "Tyre_Strategy": {
+        "Chart_Path": "c:\\Users\\mike2\\OneDrive\\Code\\PITWALL_REPORT_YOUTUBE\\VERIFICATION\\Tyre_Strategy_Chart.png"
+    },
+    "Team_Analysis": {
+        "Red Bull Racing": {
+            "Drivers": {
+                "VER": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                },
+                "LAW": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                }
+            },
+            "Stats": {}
+        },
+        "McLaren": {
+            "Drivers": {
+                "NOR": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                },
+                "PIA": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                }
+            },
+            "Stats": {}
+        },
+        "Kick Sauber": {
+            "Drivers": {
+                "BOR": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                },
+                "HUL": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                }
+            },
+            "Stats": {}
+        },
+        "Racing Bulls": {
+            "Drivers": {
+                "HAD": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                },
+                "TSU": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                }
+            },
+            "Stats": {}
+        },
+        "Alpine": {
+            "Drivers": {
+                "DOO": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                },
+                "GAS": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                }
+            },
+            "Stats": {}
+        },
+        "Mercedes": {
+            "Drivers": {
+                "ANT": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                },
+                "RUS": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                }
+            },
+            "Stats": {}
+        },
+        "Aston Martin": {
+            "Drivers": {
+                "ALO": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                },
+                "STR": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                }
+            },
+            "Stats": {}
+        },
+        "Ferrari": {
+            "Drivers": {
+                "LEC": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                },
+                "HAM": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                }
+            },
+            "Stats": {}
+        },
+        "Williams": {
+            "Drivers": {
+                "ALB": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                },
+                "SAI": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                }
+            },
+            "Stats": {}
+        },
+        "Haas F1 Team": {
+            "Drivers": {
+                "OCO": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                },
+                "BEA": {
+                    "T2_High_Speed": 0,
+                    "T3_Braking_Entry": 0,
+                    "T3_Mid_Speed": 0,
+                    "T13_Traction": 0,
+                    "Avg_Race_Pace": 999.0
+                }
+            },
+            "Stats": {}
+        }
+    }
+}
