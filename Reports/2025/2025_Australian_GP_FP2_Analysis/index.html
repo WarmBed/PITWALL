@@ -178,15 +178,1263 @@
             </ul>
         </div>
     </section>
-    <section><h2>🛑 T13 - Low Speed Hairpin</h2><p style='color:#8b949e;'>No driver telemetry data available for this corner.</p></section><section><h2>🔄 T3 - Mid Speed Corner</h2><p style='color:#8b949e;'>No driver telemetry data available for this corner.</p></section><section><h2>🚀 T2 - High Speed Kink</h2><p style='color:#8b949e;'>No driver telemetry data available for this corner.</p></section>
+    
+    <!-- Section: 🛑 T13 - Low Speed Hairpin -->
+    <section>
+        <h2>🛑 T13 - Low Speed Hairpin</h2>
+        
+        
+        <div style="display: flex; gap: 20px; margin-bottom: 20px; background: rgba(0,0,0,0.2); padding: 15px; border-radius: 8px;">
+            <div style="flex: 1; border-left: 4px solid #4CAF50; padding-left: 10px;">
+                <h4 style="margin: 0; color: #4CAF50;">🏆 Corner Master</h4>
+                <div style="font-size: 1.4em; font-weight: bold;">OCO</div>
+                <div style="color: #ccc;">Time Loss: -0.000s</div>
+                <div style="font-size: 0.8em; color: #888;">U-Style (Momentum)</div>
+            </div>
+            <div style="flex: 1; border-left: 4px solid #F44336; padding-left: 10px;">
+                <h4 style="margin: 0; color: #F44336;">📉 Biggest Loser</h4>
+                <div style="font-size: 1.4em; font-weight: bold;">GAS</div>
+                <div style="color: #ccc;">Time Loss: +0.440s</div>
+                 <div style="font-size: 0.8em; color: #888;">U-Style (Momentum)</div>
+            </div>
+        </div>
+        
+        None
+        
+        <div class="media-grid">
+            <!-- Left: Grid Video -->
+            <div class="media-item">
+                <h3>📹 Multi-Driver Synchronized View</h3>
+                <video controls autoplay loop muted style="width: 100%; border-radius: 8px; border: 1px solid #333;">
+                    <source src="Multi_Grid_T13.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <!-- Right: Scatter Plot -->
+            <div class="media-item">
+                <h3>📊 Performance Scatter Plot</h3>
+                <img src="Analysis_Low_T13.png" alt="Scatter Plot" 
+                     style="width: 100%; border-radius: 8px; border: 1px solid #333;">
+            </div>
+        </div>
+        
+        
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 15px; margin-bottom: 20px;">
+    <h3 style="margin-top: 0; color: #8b949e;">📉 Speed Trace Comparison (Interactive Overlay)</h3>
+    <p style="font-size: 0.8em; color: #666; margin-bottom: 10px;">Hover over table rows below to highlight specific drivers.</p>
+    <svg viewBox="0 0 1000 300" style="width: 100%; height: auto; display: block;">
+        <!-- Background Grid -->
+        <line x1="0" y1="300" x2="1000" y2="300" stroke="#30363d" stroke-width="2" />
+        <line x1="0" y1="0" x2="0" y2="300" stroke="#30363d" stroke-width="2" />
+        <text x="10" y="20" fill="#8b949e" font-size="12">257.0 km/h</text>
+        <text x="10" y="290" fill="#8b949e" font-size="12">89.8 km/h</text>
+    
+        <g class="trace-line trace-line-GAS">
+            <polyline points="0.0,42.91866028708134 52.63157894736842,58.27751196172247 105.26315789473684,122.58373205741626 157.89473684210526,140.09569377990425 210.52631578947367,165.0717703349282 263.1578947368421,192.20095693779905 315.7894736842105,220.33492822966505 368.4210526315789,239.71291866028707 421.05263157894734,246.31578947368422 473.6842105263158,253.92344497607655 526.3157894736842,257.2248803827751 578.9473684210526,258.9473684210526 631.578947368421,260.9569377990431 684.2105263157895,251.05263157894734 736.8421052631578,240.0 789.4736842105264,227.79904306220095 842.1052631578947,214.16267942583733 894.7368421052631,195.0717703349282 947.3684210526316,180.86124401913872 1000.0,169.23444976076553 " fill="none" stroke="#0093CC" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>GAS</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-TSU">
+            <polyline points="0.0,33.01435406698559 52.63157894736842,34.30622009569376 105.26315789473684,88.85167464114832 157.89473684210526,134.7846889952153 210.52631578947367,154.8803827751196 263.1578947368421,197.94258373205741 315.7894736842105,219.76076555023923 368.4210526315789,236.555023923445 421.05263157894734,248.1818181818182 473.6842105263158,253.92344497607655 526.3157894736842,258.22966507177034 578.9473684210526,263.9712918660287 631.578947368421,263.9712918660287 684.2105263157895,254.21052631578948 736.8421052631578,242.44019138755982 789.4736842105264,229.95215311004785 842.1052631578947,208.56459330143542 894.7368421052631,194.21052631578948 947.3684210526316,173.54066985645932 1000.0,162.05741626794259 " fill="none" stroke="#6692FF" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>TSU</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-DOO">
+            <polyline points="0.0,84.54545454545456 52.63157894736842,109.37799043062199 105.26315789473684,139.66507177033492 157.89473684210526,184.44976076555022 210.52631578947367,214.3062200956938 263.1578947368421,229.80861244019138 315.7894736842105,241.43540669856458 368.4210526315789,250.622009569378 421.05263157894734,256.7942583732057 473.6842105263158,256.7942583732057 526.3157894736842,267.27272727272725 578.9473684210526,259.95215311004785 631.578947368421,249.9043062200957 684.2105263157895,239.5693779904306 736.8421052631578,225.64593301435406 789.4736842105264,209.71291866028707 842.1052631578947,178.2775119617225 894.7368421052631,176.41148325358853 947.3684210526316,164.06698564593302 1000.0,146.69856459330146 " fill="none" stroke="#0093CC" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>DOO</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-PIA">
+            <polyline points="0.0,38.61244019138758 52.63157894736842,39.04306220095697 105.26315789473684,84.40191387559807 157.89473684210526,119.85645933014351 210.52631578947367,152.58373205741626 263.1578947368421,180.14354066985643 315.7894736842105,195.21531100478467 368.4210526315789,220.04784688995215 421.05263157894734,238.99521531100476 473.6842105263158,251.48325358851673 526.3157894736842,260.52631578947364 578.9473684210526,263.5406698564593 631.578947368421,265.11961722488036 684.2105263157895,260.2392344497608 736.8421052631578,254.64114832535887 789.4736842105264,245.74162679425837 842.1052631578947,223.63636363636363 894.7368421052631,208.42105263157896 947.3684210526316,183.444976076555 1000.0,173.54066985645932 " fill="none" stroke="#FF8000" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>PIA</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-LAW">
+            <polyline points="0.0,48.22966507177031 52.63157894736842,98.89952153110048 105.26315789473684,115.40669856459328 157.89473684210526,174.9760765550239 210.52631578947367,186.45933014354065 263.1578947368421,203.68421052631578 315.7894736842105,220.04784688995215 368.4210526315789,236.6985645933014 421.05263157894734,246.7464114832536 473.6842105263158,258.22966507177034 526.3157894736842,265.4066985645933 578.9473684210526,260.2392344497608 631.578947368421,255.0717703349282 684.2105263157895,245.5980861244019 736.8421052631578,231.67464114832535 789.4736842105264,209.42583732057415 842.1052631578947,186.45933014354065 894.7368421052631,173.54066985645932 947.3684210526316,162.05741626794259 1000.0,155.74162679425837 " fill="none" stroke="#3671C6" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>LAW</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-NOR">
+            <polyline points="0.0,41.05263157894737 52.63157894736842,61.43540669856455 105.26315789473684,116.84210526315789 157.89473684210526,166.9377990430622 210.52631578947367,216.60287081339712 263.1578947368421,234.8325358851675 315.7894736842105,239.5693779904306 368.4210526315789,246.0287081339713 421.05263157894734,254.21052631578948 473.6842105263158,259.52153110047846 526.3157894736842,256.7942583732057 578.9473684210526,249.61722488038276 631.578947368421,240.43062200956933 684.2105263157895,229.23444976076553 736.8421052631578,210.43062200956933 789.4736842105264,195.78947368421052 842.1052631578947,183.8755980861244 894.7368421052631,166.79425837320576 947.3684210526316,157.3205741626794 1000.0,145.6937799043062 " fill="none" stroke="#FF8000" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>NOR</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-RUS">
+            <polyline points="0.0,41.48325358851676 52.63157894736842,37.46411483253587 105.26315789473684,47.511961722488024 157.89473684210526,68.89952153110045 210.52631578947367,132.3444976076555 263.1578947368421,192.05741626794259 315.7894736842105,220.04784688995215 368.4210526315789,232.96650717703346 421.05263157894734,245.5980861244019 473.6842105263158,257.08133971291863 526.3157894736842,262.67942583732054 578.9473684210526,269.42583732057415 631.578947368421,264.83253588516743 684.2105263157895,258.6602870813397 736.8421052631578,247.03349282296654 789.4736842105264,234.25837320574163 842.1052631578947,227.36842105263156 894.7368421052631,206.26794258373207 947.3684210526316,194.21052631578948 1000.0,172.96650717703346 " fill="none" stroke="#27F4D2" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>RUS</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-LEC">
+            <polyline points="0.0,30.0 52.63157894736842,37.7511961722488 105.26315789473684,97.60765550239233 157.89473684210526,151.7224880382775 210.52631578947367,167.6555023923445 263.1578947368421,205.55023923444975 315.7894736842105,213.01435406698565 368.4210526315789,223.20574162679424 421.05263157894734,237.99043062200957 473.6842105263158,249.33014354066984 526.3157894736842,257.08133971291863 578.9473684210526,256.2200956937799 631.578947368421,250.04784688995215 684.2105263157895,247.3205741626794 736.8421052631578,242.58373205741623 789.4736842105264,228.08612440191388 842.1052631578947,210.57416267942585 894.7368421052631,192.20095693779905 947.3684210526316,178.2775119617225 1000.0,167.51196172248802 " fill="none" stroke="#E80020" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>LEC</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-HAM">
+            <polyline points="0.0,35.741626794258366 52.63157894736842,38.468899521531085 105.26315789473684,73.9234449760765 157.89473684210526,119.71291866028707 210.52631578947367,164.64114832535887 263.1578947368421,199.80861244019138 315.7894736842105,221.33971291866027 368.4210526315789,232.39234449760767 421.05263157894734,238.7081339712919 473.6842105263158,248.1818181818182 526.3157894736842,259.8086124401914 578.9473684210526,261.67464114832535 631.578947368421,259.09090909090907 684.2105263157895,252.48803827751198 736.8421052631578,244.44976076555025 789.4736842105264,237.1291866028708 842.1052631578947,227.51196172248802 894.7368421052631,211.14832535885165 947.3684210526316,190.62200956937798 1000.0,169.23444976076553 " fill="none" stroke="#E80020" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>HAM</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-VER">
+            <polyline points="0.0,33.73205741626788 52.63157894736842,30.0 105.26315789473684,71.05263157894731 157.89473684210526,110.38277511961721 210.52631578947367,158.89952153110048 263.1578947368421,177.8468899521531 315.7894736842105,193.63636363636363 368.4210526315789,223.49282296650716 421.05263157894734,236.6985645933014 473.6842105263158,248.03827751196172 526.3157894736842,255.93301435406698 578.9473684210526,260.52631578947364 631.578947368421,263.6842105263158 684.2105263157895,255.35885167464113 736.8421052631578,245.31100478468898 789.4736842105264,236.6985645933014 842.1052631578947,223.7799043062201 894.7368421052631,203.39712918660288 947.3684210526316,181.86602870813397 1000.0,169.66507177033492 " fill="none" stroke="#3671C6" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>VER</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-STR">
+            <polyline points="0.0,44.35406698564594 52.63157894736842,41.48325358851676 105.26315789473684,41.48325358851676 157.89473684210526,41.48325358851676 210.52631578947367,136.22009569377988 263.1578947368421,190.76555023923444 315.7894736842105,212.58373205741623 368.4210526315789,227.22488038277515 421.05263157894734,235.26315789473682 473.6842105263158,248.1818181818182 526.3157894736842,259.6650717703349 578.9473684210526,267.27272727272725 631.578947368421,270.0 684.2105263157895,266.8421052631579 736.8421052631578,262.53588516746413 789.4736842105264,254.21052631578948 842.1052631578947,242.44019138755982 894.7368421052631,196.5071770334928 947.3684210526316,186.74641148325355 1000.0,164.92822966507174 " fill="none" stroke="#229971" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>STR</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-SAI">
+            <polyline points="0.0,42.91866028708134 52.63157894736842,71.62679425837322 105.26315789473684,109.09090909090907 157.89473684210526,138.08612440191388 210.52631578947367,151.578947368421 263.1578947368421,203.68421052631578 315.7894736842105,229.23444976076553 368.4210526315789,238.8516746411483 421.05263157894734,247.60765550239233 473.6842105263158,250.19138755980862 526.3157894736842,258.8038277511962 578.9473684210526,260.9569377990431 631.578947368421,259.52153110047846 684.2105263157895,251.48325358851673 736.8421052631578,237.41626794258372 789.4736842105264,223.63636363636363 842.1052631578947,206.41148325358853 894.7368421052631,190.76555023923444 947.3684210526316,175.83732057416267 1000.0,165.21531100478467 " fill="none" stroke="#64C4FF" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>SAI</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-HAD">
+            <polyline points="0.0,31.435406698564577 52.63157894736842,55.406698564593285 105.26315789473684,97.3205741626794 157.89473684210526,134.4976076555024 210.52631578947367,162.9186602870813 263.1578947368421,194.92822966507177 315.7894736842105,213.58851674641147 368.4210526315789,243.30143540669854 421.05263157894734,253.06220095693777 473.6842105263158,259.52153110047846 526.3157894736842,264.25837320574163 578.9473684210526,268.99521531100476 631.578947368421,264.83253588516743 684.2105263157895,252.63157894736838 736.8421052631578,237.70334928229664 789.4736842105264,223.7799043062201 842.1052631578947,195.64593301435406 894.7368421052631,182.29665071770333 947.3684210526316,177.70334928229664 1000.0,146.26794258373207 " fill="none" stroke="#6692FF" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>HAD</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-ANT">
+            <polyline points="0.0,43.205741626794236 52.63157894736842,40.047846889952154 105.26315789473684,40.047846889952154 157.89473684210526,40.047846889952154 210.52631578947367,112.67942583732057 263.1578947368421,192.34449760765548 315.7894736842105,218.61244019138755 368.4210526315789,234.4019138755981 421.05263157894734,247.89473684210526 473.6842105263158,254.92822966507174 526.3157894736842,264.11483253588517 578.9473684210526,266.69856459330146 631.578947368421,261.5311004784689 684.2105263157895,259.09090909090907 736.8421052631578,245.5980861244019 789.4736842105264,233.2535885167464 842.1052631578947,216.60287081339712 894.7368421052631,198.3732057416268 947.3684210526316,183.01435406698562 1000.0,173.11004784688993 " fill="none" stroke="#27F4D2" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>ANT</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-ALB">
+            <polyline points="0.0,37.17703349282294 52.63157894736842,45.21531100478464 105.26315789473684,101.05263157894737 157.89473684210526,121.57894736842104 210.52631578947367,176.41148325358853 263.1578947368421,209.5693779904306 315.7894736842105,230.23923444976077 368.4210526315789,241.14832535885165 421.05263157894734,247.89473684210526 473.6842105263158,256.50717703349284 526.3157894736842,262.53588516746413 578.9473684210526,256.6507177033493 631.578947368421,254.21052631578948 684.2105263157895,248.4688995215311 736.8421052631578,236.84210526315786 789.4736842105264,226.07655502392345 842.1052631578947,213.30143540669854 894.7368421052631,198.9473684210526 947.3684210526316,179.28229665071768 1000.0,167.9425837320574 " fill="none" stroke="#64C4FF" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>ALB</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-BOR">
+            <polyline points="0.0,41.48325358851676 52.63157894736842,38.61244019138758 105.26315789473684,41.62679425837317 157.89473684210526,110.95693779904303 210.52631578947367,142.96650717703346 263.1578947368421,186.74641148325355 315.7894736842105,209.42583732057415 368.4210526315789,227.94258373205741 421.05263157894734,241.0047846889952 473.6842105263158,242.87081339712915 526.3157894736842,250.622009569378 578.9473684210526,255.93301435406698 631.578947368421,259.95215311004785 684.2105263157895,259.09090909090907 736.8421052631578,256.50717703349284 789.4736842105264,247.17703349282294 842.1052631578947,243.8755980861244 894.7368421052631,224.64114832535884 947.3684210526316,203.11004784688993 1000.0,187.17703349282294 " fill="none" stroke="#52E252" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>BOR</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-ALO">
+            <polyline points="0.0,41.48325358851676 52.63157894736842,38.899521531100476 105.26315789473684,41.48325358851676 157.89473684210526,169.23444976076553 210.52631578947367,186.74641148325355 263.1578947368421,228.22966507177034 315.7894736842105,238.7081339712919 368.4210526315789,250.622009569378 421.05263157894734,259.23444976076553 473.6842105263158,263.39712918660285 526.3157894736842,263.2535885167464 578.9473684210526,260.38277511961724 631.578947368421,254.92822966507174 684.2105263157895,238.56459330143542 736.8421052631578,226.36363636363637 789.4736842105264,209.42583732057415 842.1052631578947,193.06220095693777 894.7368421052631,176.26794258373207 947.3684210526316,161.33971291866027 1000.0,160.1913875598086 " fill="none" stroke="#229971" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>ALO</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-HUL">
+            <polyline points="0.0,37.17703349282294 52.63157894736842,33.01435406698559 105.26315789473684,30.2870813397129 157.89473684210526,56.84210526315789 210.52631578947367,91.29186602870809 263.1578947368421,115.11961722488039 315.7894736842105,152.00956937799043 368.4210526315789,185.02392344497608 421.05263157894734,204.40191387559807 473.6842105263158,223.7799043062201 526.3157894736842,236.41148325358853 578.9473684210526,248.89952153110045 631.578947368421,258.9473684210526 684.2105263157895,263.82775119617224 736.8421052631578,266.69856459330146 789.4736842105264,263.11004784689 842.1052631578947,255.35885167464113 894.7368421052631,249.18660287081337 947.3684210526316,233.82775119617224 1000.0,186.45933014354065 " fill="none" stroke="#52E252" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>HUL</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-OCO">
+            <polyline points="0.0,41.33971291866027 52.63157894736842,39.330143540669866 105.26315789473684,51.67464114832532 157.89473684210526,91.43540669856458 210.52631578947367,131.48325358851673 263.1578947368421,174.2583732057416 315.7894736842105,196.7942583732057 368.4210526315789,218.32535885167465 421.05263157894734,231.96172248803828 473.6842105263158,248.03827751196172 526.3157894736842,253.63636363636363 578.9473684210526,259.52153110047846 631.578947368421,261.8181818181818 684.2105263157895,262.53588516746413 736.8421052631578,250.04784688995215 789.4736842105264,240.43062200956933 842.1052631578947,227.6555023923445 894.7368421052631,212.29665071770336 947.3684210526316,200.0956937799043 1000.0,170.38277511961724 " fill="none" stroke="#B6BABD" stroke-width="4" stroke-opacity="1.0" vector-effect="non-scaling-stroke">
+                <title>OCO</title>
+            </polyline>
+        </g>
+        </svg></div>
+
+        <div class="table-container">
+            <h3>🏎️ Detailed Driver Analysis (Interact with Table to Highlight Chart)</h3>
+            <table class="analysis-table">
+                <thead>
+                    <tr>
+                        <th>Driver</th>
+                        <th>Time Delta</th>
+                        <th>Line Type</th>
+                        <th>Entry</th>
+                        <th>Apex</th>
+                        <th>Exit</th>
+                        <th>Analysis Verdict</th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                    <tr style="" onmouseover="highlightDriver('OCO')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #B6BABD;">
+                            OCO 
+                        </td>
+                        <td style="color: #4CAF50; font-weight: bold; font-family: monospace;">+0.000s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>143.0</td>
+                        <td>95.0</td>
+                        <td>146.2</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>🏆 FASTEST SECTOR.</b> U-Style (Momentum) execution perfect. Very smooth inputs (552).</td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('HUL')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #52E252;">
+                            HUL 
+                        </td>
+                        <td style="color: #4CAF50; font-weight: bold; font-family: monospace;">+0.040s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>147.0</td>
+                        <td>92.0</td>
+                        <td>145.8</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('ALO')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #229971;">
+                            ALO <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #FFC107; font-weight: bold; font-family: monospace;">+0.071s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>160.0</td>
+                        <td>94.0</td>
+                        <td>135.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;">High steering workload (764).</td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('BOR')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #52E252;">
+                            BOR <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #FFC107; font-weight: bold; font-family: monospace;">+0.130s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>150.6</td>
+                        <td>96.0</td>
+                        <td>137.2</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('ALB')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #64C4FF;">
+                            ALB 
+                        </td>
+                        <td style="color: #FFC107; font-weight: bold; font-family: monospace;">+0.149s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>156.5</td>
+                        <td>95.0</td>
+                        <td>135.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;">Very smooth inputs (543).</td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('ANT')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #27F4D2;">
+                            ANT <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #FFC107; font-weight: bold; font-family: monospace;">+0.160s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>134.0</td>
+                        <td>92.0</td>
+                        <td>140.4</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;">High steering workload (698).</td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('HAD')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #6692FF;">
+                            HAD <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #FFC107; font-weight: bold; font-family: monospace;">+0.190s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>164.7</td>
+                        <td>90.0</td>
+                        <td>140.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('SAI')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #64C4FF;">
+                            SAI 
+                        </td>
+                        <td style="color: #FFC107; font-weight: bold; font-family: monospace;">+0.193s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>172.0</td>
+                        <td>96.0</td>
+                        <td>134.7</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('STR')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #229971;">
+                            STR 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.209s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>145.0</td>
+                        <td>89.0</td>
+                        <td>141.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;">High steering workload (720).</td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('VER')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #3671C6;">
+                            VER <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.220s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>154.0</td>
+                        <td>93.0</td>
+                        <td>143.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('LEC')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #E80020;">
+                            LEC 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.240s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>150.4</td>
+                        <td>98.0</td>
+                        <td>133.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>Top Rotation (98km/h).</b></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('HAM')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #E80020;">
+                            HAM 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.240s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>143.0</td>
+                        <td>95.0</td>
+                        <td>143.2</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;">Very smooth inputs (554).</td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('RUS')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #27F4D2;">
+                            RUS 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.251s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>154.2</td>
+                        <td>90.0</td>
+                        <td>142.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('NOR')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #FF8000;">
+                            NOR <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.280s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>147.8</td>
+                        <td>97.0</td>
+                        <td>144.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;">Very smooth inputs (559). <b>Top Rotation (97km/h).</b></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('LAW')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #3671C6;">
+                            LAW 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.300s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>148.0</td>
+                        <td>93.0</td>
+                        <td>140.4</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;">High steering workload (775).</td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('PIA')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #FF8000;">
+                            PIA 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.320s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>147.9</td>
+                        <td>92.0</td>
+                        <td>151.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.320s).</b> Very smooth inputs (460).</td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('DOO')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #0093CC;">
+                            DOO <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.380s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>146.0</td>
+                        <td>91.0</td>
+                        <td>142.8</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.380s).</b> Very smooth inputs (563).</td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('TSU')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #6692FF;">
+                            TSU 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.389s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>146.0</td>
+                        <td>94.0</td>
+                        <td>142.6</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.389s).</b></td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('GAS')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #0093CC;">
+                            GAS <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.440s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>130.0</td>
+                        <td>96.0</td>
+                        <td>149.8</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.440s).</b></td>
+                    </tr>
+        
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
+    <!-- Section: 🔄 T3 - Mid Speed Corner -->
+    <section>
+        <h2>🔄 T3 - Mid Speed Corner</h2>
+        
+        
+        <div style="display: flex; gap: 20px; margin-bottom: 20px; background: rgba(0,0,0,0.2); padding: 15px; border-radius: 8px;">
+            <div style="flex: 1; border-left: 4px solid #4CAF50; padding-left: 10px;">
+                <h4 style="margin: 0; color: #4CAF50;">🏆 Corner Master</h4>
+                <div style="font-size: 1.4em; font-weight: bold;">VER</div>
+                <div style="color: #ccc;">Time Loss: -0.000s</div>
+                <div style="font-size: 0.8em; color: #888;">U-Style (Momentum)</div>
+            </div>
+            <div style="flex: 1; border-left: 4px solid #F44336; padding-left: 10px;">
+                <h4 style="margin: 0; color: #F44336;">📉 Biggest Loser</h4>
+                <div style="font-size: 1.4em; font-weight: bold;">DOO</div>
+                <div style="color: #ccc;">Time Loss: +0.590s</div>
+                 <div style="font-size: 0.8em; color: #888;">U-Style (Momentum)</div>
+            </div>
+        </div>
+        
+        None
+        
+        <div class="media-grid">
+            <!-- Left: Grid Video -->
+            <div class="media-item">
+                <h3>📹 Multi-Driver Synchronized View</h3>
+                <video controls autoplay loop muted style="width: 100%; border-radius: 8px; border: 1px solid #333;">
+                    <source src="Multi_Grid_T3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <!-- Right: Scatter Plot -->
+            <div class="media-item">
+                <h3>📊 Performance Scatter Plot</h3>
+                <img src="Analysis_Mid_T3.png" alt="Scatter Plot" 
+                     style="width: 100%; border-radius: 8px; border: 1px solid #333;">
+            </div>
+        </div>
+        
+        
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 15px; margin-bottom: 20px;">
+    <h3 style="margin-top: 0; color: #8b949e;">📉 Speed Trace Comparison (Interactive Overlay)</h3>
+    <p style="font-size: 0.8em; color: #666; margin-bottom: 10px;">Hover over table rows below to highlight specific drivers.</p>
+    <svg viewBox="0 0 1000 300" style="width: 100%; height: auto; display: block;">
+        <!-- Background Grid -->
+        <line x1="0" y1="300" x2="1000" y2="300" stroke="#30363d" stroke-width="2" />
+        <line x1="0" y1="0" x2="0" y2="300" stroke="#30363d" stroke-width="2" />
+        <text x="10" y="20" fill="#8b949e" font-size="12">310.0 km/h</text>
+        <text x="10" y="290" fill="#8b949e" font-size="12">95.9 km/h</text>
+    
+        <g class="trace-line trace-line-DOO">
+            <polyline points="0.0,91.98972442783747 52.63157894736842,153.86735170481086 105.26315789473684,183.79729098552076 157.89473684210526,203.63848668846333 210.52631578947367,224.71275105091078 263.1578947368421,234.35310602522185 315.7894736842105,250.71929005137787 368.4210526315789,257.4451191032228 421.05263157894734,263.38626809901916 473.6842105263158,267.87015413358245 526.3157894736842,266.8612797758057 578.9473684210526,264.1709481550677 631.578947368421,251.16767865483416 684.2105263157895,245.22652965903785 736.8421052631578,240.29425502101822 789.4736842105264,219.89257356375526 842.1052631578947,208.3465670247548 894.7368421052631,199.7150864082205 947.3684210526316,191.4198972442784 1000.0,191.75618869687065 " fill="none" stroke="#0093CC" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>DOO</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-ALO">
+            <polyline points="0.0,75.95983185427369 52.63157894736842,93.89537599252685 105.26315789473684,140.9761793554414 157.89473684210526,183.57309668379264 210.52631578947367,203.75058383932742 263.1578947368421,217.20224194301727 315.7894736842105,232.78374591312473 368.4210526315789,257.5572162540869 421.05263157894734,263.38626809901916 473.6842105263158,266.52498832321345 526.3157894736842,265.852405418029 578.9473684210526,263.94675385333954 631.578947368421,256.43624474544606 684.2105263157895,245.22652965903785 736.8421052631578,235.13778608127046 789.4736842105264,224.15226529659037 842.1052631578947,216.86595049042504 894.7368421052631,208.2344698738907 947.3684210526316,189.17795422699675 1000.0,185.81503970107428 " fill="none" stroke="#229971" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>ALO</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-GAS">
+            <polyline points="0.0,44.5726296123307 52.63157894736842,118.668846333489 105.26315789473684,136.38019617001402 157.89473684210526,177.51985053713219 210.52631578947367,198.1457262961233 263.1578947368421,223.70387669313408 315.7894736842105,237.26763194768802 368.4210526315789,244.44184960298924 421.05263157894734,252.17655301261095 473.6842105263158,256.2120504437179 526.3157894736842,264.2830453059318 578.9473684210526,264.2830453059318 631.578947368421,258.9023820644559 684.2105263157895,256.66043904717424 736.8421052631578,249.9346099953293 789.4736842105264,241.8636151331154 842.1052631578947,232.67164876226065 894.7368421052631,211.82157870154134 947.3684210526316,198.93040635217187 1000.0,184.69406819243346 " fill="none" stroke="#0093CC" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>GAS</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-LAW">
+            <polyline points="0.0,30.0 52.63157894736842,100.50910789350772 105.26315789473684,159.0238206445586 157.89473684210526,174.71742176553013 210.52631578947367,198.03362914525923 263.1578947368421,219.4441849602989 315.7894736842105,236.81924334423167 368.4210526315789,250.71929005137787 421.05263157894734,258.7902849135918 473.6842105263158,264.05885100420363 526.3157894736842,269.21531994395144 578.9473684210526,270.0 631.578947368421,266.18869687062124 684.2105263157895,259.46286781877626 736.8421052631578,247.8047641289117 789.4736842105264,239.28538066324148 842.1052631578947,233.34423166744511 894.7368421052631,218.43531060252218 947.3684210526316,198.2578234469874 1000.0,190.63521718822983 " fill="none" stroke="#3671C6" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>LAW</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-HAD">
+            <polyline points="0.0,92.77440448388603 52.63157894736842,140.75198505371324 105.26315789473684,168.21578701541335 157.89473684210526,203.30219523587107 210.52631578947367,217.87482484820177 263.1578947368421,248.5894441849603 315.7894736842105,248.92573563755252 368.4210526315789,251.7281644091546 421.05263157894734,256.66043904717424 473.6842105263158,265.06772536198037 526.3157894736842,263.7225595516114 578.9473684210526,261.9290051377861 631.578947368421,248.92573563755252 684.2105263157895,237.26763194768802 736.8421052631578,223.81597384399814 789.4736842105264,208.68285847734705 842.1052631578947,198.36992059785146 894.7368421052631,189.9626342830453 947.3684210526316,183.79729098552076 1000.0,190.52312003736571 " fill="none" stroke="#6692FF" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>HAD</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-PIA">
+            <polyline points="0.0,63.62914525922466 52.63157894736842,114.74544605324616 105.26315789473684,154.65203176085942 157.89473684210526,178.52872489490892 210.52631578947367,195.45539467538532 263.1578947368421,209.80382998598787 315.7894736842105,228.29985987856145 368.4210526315789,244.7781410555815 421.05263157894734,248.02895843063988 473.6842105263158,252.73703876693133 526.3157894736842,259.01447921531997 578.9473684210526,264.05885100420363 631.578947368421,265.29191966370854 684.2105263157895,262.15319943951425 736.8421052631578,253.18542737038769 789.4736842105264,243.4329752452125 842.1052631578947,234.46520317608594 894.7368421052631,215.52078468005607 947.3684210526316,201.1723493694535 1000.0,185.36665109761793 " fill="none" stroke="#FF8000" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>PIA</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-NOR">
+            <polyline points="0.0,88.29051844932275 52.63157894736842,157.9028491359178 105.26315789473684,172.02709014479214 157.89473684210526,192.76506305464736 210.52631578947367,215.63288183092013 263.1578947368421,230.7659971975712 315.7894736842105,235.92246613731902 368.4210526315789,240.5184493227464 421.05263157894734,245.33862680990194 473.6842105263158,251.05558150397013 526.3157894736842,254.3063988790285 578.9473684210526,258.34189631013544 631.578947368421,254.8668846333489 684.2105263157895,247.58056982718358 736.8421052631578,234.9135917795423 789.4736842105264,225.8337225595516 842.1052631578947,215.52078468005607 894.7368421052631,193.66184026156003 947.3684210526316,186.82391405885102 1000.0,190.41102288650163 " fill="none" stroke="#FF8000" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>NOR</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-OCO">
+            <polyline points="0.0,80.443717888837 52.63157894736842,111.2704343764596 105.26315789473684,148.48668846333487 157.89473684210526,181.44325081737503 210.52631578947367,199.37879495562822 263.1578947368421,213.27884166277443 315.7894736842105,232.67164876226065 368.4210526315789,241.07893507706677 421.05263157894734,248.14105558150396 473.6842105263158,254.7547874824848 526.3157894736842,261.1443250817375 578.9473684210526,265.7403082671649 631.578947368421,260.1354507239608 684.2105263157895,246.79588977113497 736.8421052631578,235.13778608127046 789.4736842105264,226.5063054647361 842.1052631578947,216.97804764128915 894.7368421052631,200.49976646426904 947.3684210526316,189.85053713218122 1000.0,185.81503970107428 " fill="none" stroke="#B6BABD" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>OCO</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-STR">
+            <polyline points="0.0,62.508173750583836 52.63157894736842,111.9430172816441 105.26315789473684,128.64549276039236 157.89473684210526,192.42877160205512 210.52631578947367,219.2199906585708 263.1578947368421,236.5950490425035 315.7894736842105,241.30312937879495 368.4210526315789,243.88136384866885 421.05263157894734,248.14105558150396 473.6842105263158,251.8402615600187 526.3157894736842,257.2209248014946 578.9473684210526,257.78141055581506 631.578947368421,256.54834189631015 684.2105263157895,251.6160672582905 736.8421052631578,245.45072396076603 789.4736842105264,241.6394208313872 842.1052631578947,232.2232601588043 894.7368421052631,228.52405418028957 947.3684210526316,200.8360579168613 1000.0,190.85941148995798 " fill="none" stroke="#229971" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>STR</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-SAI">
+            <polyline points="0.0,77.08080336291454 52.63157894736842,129.76646426903318 105.26315789473684,140.9761793554414 157.89473684210526,145.46006539000467 210.52631578947367,175.72629612330687 263.1578947368421,203.75058383932742 315.7894736842105,224.71275105091078 368.4210526315789,229.53292853806636 421.05263157894734,241.07893507706677 473.6842105263158,250.71929005137787 526.3157894736842,256.66043904717424 578.9473684210526,265.4040168145726 631.578947368421,265.4040168145726 684.2105263157895,256.43624474544606 736.8421052631578,248.5894441849603 789.4736842105264,241.8636151331154 842.1052631578947,227.06679121905654 894.7368421052631,208.2344698738907 947.3684210526316,202.29332087809433 1000.0,193.66184026156003 " fill="none" stroke="#64C4FF" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>SAI</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-ANT">
+            <polyline points="0.0,84.92760392340028 52.63157894736842,119.67772069126576 105.26315789473684,153.19476879962636 157.89473684210526,192.98925735637553 210.52631578947367,217.65063054647362 263.1578947368421,236.48295189163946 315.7894736842105,247.8047641289117 368.4210526315789,255.31527323680524 421.05263157894734,260.92013078000934 473.6842105263158,266.52498832321345 526.3157894736842,265.4040168145726 578.9473684210526,263.162073797291 631.578947368421,255.53946753853342 684.2105263157895,249.37412424100887 736.8421052631578,238.50070060719293 789.4736842105264,232.89584306398882 842.1052631578947,205.99252685660906 894.7368421052631,193.66184026156003 947.3684210526316,189.17795422699675 1000.0,189.40214852872487 " fill="none" stroke="#27F4D2" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>ANT</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-LEC">
+            <polyline points="0.0,52.643624474544595 52.63157894736842,94.90425035030361 105.26315789473684,132.00840728631482 157.89473684210526,170.12143858010276 210.52631578947367,195.67958897711353 263.1578947368421,209.5796356842597 315.7894736842105,221.79822512844464 368.4210526315789,231.774871555348 421.05263157894734,241.8636151331154 473.6842105263158,252.28865016347504 526.3157894736842,256.9967304997665 578.9473684210526,262.04110228865017 631.578947368421,257.5572162540869 684.2105263157895,251.05558150397013 736.8421052631578,245.22652965903785 789.4736842105264,239.95796356842595 842.1052631578947,231.774871555348 894.7368421052631,223.3675852405418 947.3684210526316,200.38766931340496 1000.0,189.2900513778608 " fill="none" stroke="#E80020" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>LEC</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-HAM">
+            <polyline points="0.0,33.36291452592246 52.63157894736842,88.73890705277904 105.26315789473684,116.98738907052777 157.89473684210526,151.6254086875292 210.52631578947367,181.2190565156469 263.1578947368421,217.20224194301727 315.7894736842105,234.35310602522185 368.4210526315789,245.78701541335823 421.05263157894734,248.36524988323214 473.6842105263158,256.43624474544606 526.3157894736842,263.49836524988325 578.9473684210526,261.3685193834657 631.578947368421,259.7991592713685 684.2105263157895,255.53946753853342 736.8421052631578,245.78701541335823 789.4736842105264,234.35310602522185 842.1052631578947,221.79822512844464 894.7368421052631,214.17561886968707 947.3684210526316,199.04250350303596 1000.0,184.58197104156937 " fill="none" stroke="#E80020" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>HAM</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-RUS">
+            <polyline points="0.0,77.19290051377862 52.63157894736842,110.82204577300325 105.26315789473684,137.83745913124707 157.89473684210526,172.25128444652034 210.52631578947367,209.13124708080338 263.1578947368421,223.81597384399814 315.7894736842105,233.4563288183092 368.4210526315789,246.1233068659505 421.05263157894734,252.73703876693133 473.6842105263158,256.9967304997665 526.3157894736842,260.0233535730967 578.9473684210526,263.94675385333954 631.578947368421,262.04110228865017 684.2105263157895,258.5660906118636 736.8421052631578,255.7636618402616 789.4736842105264,243.4329752452125 842.1052631578947,231.88696870621203 894.7368421052631,218.43531060252218 947.3684210526316,205.2078468005605 1000.0,188.50537132181225 " fill="none" stroke="#27F4D2" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>RUS</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-TSU">
+            <polyline points="0.0,44.5726296123307 52.63157894736842,81.22839794488556 105.26315789473684,128.75758991125645 157.89473684210526,154.65203176085942 210.52631578947367,201.84493227463804 263.1578947368421,228.74824848201774 315.7894736842105,238.05231200373657 368.4210526315789,248.7015413358244 421.05263157894734,254.7547874824848 473.6842105263158,260.35964502568896 526.3157894736842,261.9290051377861 578.9473684210526,258.22979915927135 631.578947368421,252.28865016347504 684.2105263157895,246.45959831854276 736.8421052631578,240.4063521718823 789.4736842105264,224.71275105091078 842.1052631578947,216.97804764128915 894.7368421052631,207.0014012143858 947.3684210526316,200.38766931340496 1000.0,180.21018215787018 " fill="none" stroke="#6692FF" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>TSU</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-BOR">
+            <polyline points="0.0,44.5726296123307 52.63157894736842,94.11957029425503 105.26315789473684,147.25361980382996 157.89473684210526,163.1714152265297 210.52631578947367,193.54974311069594 263.1578947368421,210.2522185894442 315.7894736842105,233.79262027090147 368.4210526315789,243.20878094348438 421.05263157894734,251.16767865483416 473.6842105263158,255.6515646893975 526.3157894736842,261.816907986922 578.9473684210526,265.4040168145726 631.578947368421,261.9290051377861 684.2105263157895,260.92013078000934 736.8421052631578,246.45959831854276 789.4736842105264,238.94908921064922 842.1052631578947,229.86921999065856 894.7368421052631,218.65950490425035 947.3684210526316,208.01027557216256 1000.0,191.3078000934143 " fill="none" stroke="#52E252" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>BOR</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-ALB">
+            <polyline points="0.0,96.69780476412893 52.63157894736842,121.58337225595517 105.26315789473684,153.0826716487623 157.89473684210526,194.3344231667445 210.52631578947367,211.4852872489491 263.1578947368421,225.1611396543671 315.7894736842105,229.30873423633818 368.4210526315789,237.04343764595984 421.05263157894734,245.00233535730968 473.6842105263158,257.5572162540869 526.3157894736842,257.5572162540869 578.9473684210526,255.31527323680524 631.578947368421,254.8668846333489 684.2105263157895,246.57169546940685 736.8421052631578,238.16440915460066 789.4736842105264,233.00794021485285 842.1052631578947,217.42643624474545 894.7368421052631,207.22559551611397 947.3684210526316,195.5674918262494 1000.0,190.29892573563757 " fill="none" stroke="#64C4FF" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>ALB</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-HUL">
+            <polyline points="0.0,44.5726296123307 52.63157894736842,92.77440448388603 105.26315789473684,125.28257823446987 157.89473684210526,144.22699673049976 210.52631578947367,183.46099953292855 263.1578947368421,204.6473610462401 315.7894736842105,236.5950490425035 368.4210526315789,247.4684726763195 421.05263157894734,254.19430172816442 473.6842105263158,257.5572162540869 526.3157894736842,267.64595983185427 578.9473684210526,268.7669313404951 631.578947368421,263.162073797291 684.2105263157895,255.6515646893975 736.8421052631578,249.59831854273705 789.4736842105264,238.50070060719293 842.1052631578947,226.394208313872 894.7368421052631,217.20224194301727 947.3684210526316,198.7062120504437 1000.0,193.21345165810368 " fill="none" stroke="#52E252" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>HUL</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-VER">
+            <polyline points="0.0,103.42363381597386 52.63157894736842,130.10275572162544 105.26315789473684,171.802895843064 157.89473684210526,192.98925735637553 210.52631578947367,219.2199906585708 263.1578947368421,230.31760859411492 315.7894736842105,237.8281177020084 368.4210526315789,246.79588977113497 421.05263157894734,251.6160672582905 473.6842105263158,256.7725361980383 526.3157894736842,259.23867351704814 578.9473684210526,262.04110228865017 631.578947368421,259.68706212050444 684.2105263157895,255.9878561419897 736.8421052631578,252.40074731433913 789.4736842105264,244.44184960298924 842.1052631578947,234.35310602522185 894.7368421052631,227.62727697337692 947.3684210526316,204.53526389537598 1000.0,192.5408687529192 " fill="none" stroke="#3671C6" stroke-width="4" stroke-opacity="1.0" vector-effect="non-scaling-stroke">
+                <title>VER</title>
+            </polyline>
+        </g>
+        </svg></div>
+
+        <div class="table-container">
+            <h3>🏎️ Detailed Driver Analysis (Interact with Table to Highlight Chart)</h3>
+            <table class="analysis-table">
+                <thead>
+                    <tr>
+                        <th>Driver</th>
+                        <th>Time Delta</th>
+                        <th>Line Type</th>
+                        <th>Entry</th>
+                        <th>Apex</th>
+                        <th>Exit</th>
+                        <th>Analysis Verdict</th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('VER')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #3671C6;">
+                            VER <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #4CAF50; font-weight: bold; font-family: monospace;">+0.000s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>146.0</td>
+                        <td>103.0</td>
+                        <td>135.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>🏆 FASTEST SECTOR.</b> U-Style (Momentum) execution perfect.</td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('HUL')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #52E252;">
+                            HUL 
+                        </td>
+                        <td style="color: #FFC107; font-weight: bold; font-family: monospace;">+0.149s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>155.0</td>
+                        <td>97.0</td>
+                        <td>137.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('ALB')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #64C4FF;">
+                            ALB 
+                        </td>
+                        <td style="color: #FFC107; font-weight: bold; font-family: monospace;">+0.170s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>153.0</td>
+                        <td>107.0</td>
+                        <td>129.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;">Very smooth inputs (453). <b>Top Rotation (107km/h).</b></td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('BOR')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #52E252;">
+                            BOR <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.201s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>151.0</td>
+                        <td>100.0</td>
+                        <td>140.1</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('TSU')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #6692FF;">
+                            TSU 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.230s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>144.6</td>
+                        <td>103.0</td>
+                        <td>145.5</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('RUS')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #27F4D2;">
+                            RUS 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.270s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>146.0</td>
+                        <td>101.0</td>
+                        <td>143.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('HAM')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #E80020;">
+                            HAM 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.281s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>161.6</td>
+                        <td>101.0</td>
+                        <td>137.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;">High steering workload (856).</td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('LEC')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #E80020;">
+                            LEC 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.330s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>151.0</td>
+                        <td>103.0</td>
+                        <td>137.5</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.330s).</b> Very smooth inputs (460).</td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('ANT')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #27F4D2;">
+                            ANT <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.362s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>144.0</td>
+                        <td>99.0</td>
+                        <td>138.4</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.362s).</b> High steering workload (758).</td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('SAI')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #64C4FF;">
+                            SAI 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.363s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>142.0</td>
+                        <td>100.0</td>
+                        <td>136.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.363s).</b> High steering workload (791).</td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('STR')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #229971;">
+                            STR 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.382s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>142.0</td>
+                        <td>106.0</td>
+                        <td>132.2</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.382s).</b> <b>Top Rotation (106km/h).</b></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('OCO')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #B6BABD;">
+                            OCO 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.401s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>149.0</td>
+                        <td>99.0</td>
+                        <td>138.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.401s).</b></td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('NOR')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #FF8000;">
+                            NOR <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.421s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>138.4</td>
+                        <td>106.0</td>
+                        <td>145.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.421s).</b> Very smooth inputs (409). <b>Top Rotation (106km/h).</b></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('PIA')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #FF8000;">
+                            PIA 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.440s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>151.3</td>
+                        <td>100.0</td>
+                        <td>141.9</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.440s).</b> Very smooth inputs (486).</td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('HAD')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #6692FF;">
+                            HAD <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.441s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>164.6</td>
+                        <td>100.0</td>
+                        <td>140.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.441s).</b></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('LAW')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #3671C6;">
+                            LAW 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.480s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>152.0</td>
+                        <td>95.0</td>
+                        <td>142.7</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.480s).</b> High steering workload (710).</td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('GAS')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #0093CC;">
+                            GAS <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.511s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>158.0</td>
+                        <td>101.0</td>
+                        <td>133.1</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.511s).</b> Very smooth inputs (448).</td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('ALO')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #229971;">
+                            ALO <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.550s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">V-Style</td>
+                        <td>155.0</td>
+                        <td>99.0</td>
+                        <td>136.8</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.550s).</b></td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('DOO')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #0093CC;">
+                            DOO <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.590s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>148.0</td>
+                        <td>97.0</td>
+                        <td>148.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.590s).</b></td>
+                    </tr>
+        
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
+    <!-- Section: 🚀 T2 - High Speed Kink -->
+    <section>
+        <h2>🚀 T2 - High Speed Kink</h2>
+        
+        
+        <div style="display: flex; gap: 20px; margin-bottom: 20px; background: rgba(0,0,0,0.2); padding: 15px; border-radius: 8px;">
+            <div style="flex: 1; border-left: 4px solid #4CAF50; padding-left: 10px;">
+                <h4 style="margin: 0; color: #4CAF50;">🏆 Corner Master</h4>
+                <div style="font-size: 1.4em; font-weight: bold;">ANT</div>
+                <div style="color: #ccc;">Time Loss: -0.000s</div>
+                <div style="font-size: 0.8em; color: #888;">U-Style (Momentum)</div>
+            </div>
+            <div style="flex: 1; border-left: 4px solid #F44336; padding-left: 10px;">
+                <h4 style="margin: 0; color: #F44336;">📉 Biggest Loser</h4>
+                <div style="font-size: 1.4em; font-weight: bold;">OCO</div>
+                <div style="color: #ccc;">Time Loss: +0.391s</div>
+                 <div style="font-size: 0.8em; color: #888;">U-Style (Momentum)</div>
+            </div>
+        </div>
+        
+        None
+        
+        <div class="media-grid">
+            <!-- Left: Grid Video -->
+            <div class="media-item">
+                <h3>📹 Multi-Driver Synchronized View</h3>
+                <video controls autoplay loop muted style="width: 100%; border-radius: 8px; border: 1px solid #333;">
+                    <source src="Multi_Grid_T2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <!-- Right: Scatter Plot -->
+            <div class="media-item">
+                <h3>📊 Performance Scatter Plot</h3>
+                <img src="Analysis_High_T2.png" alt="Scatter Plot" 
+                     style="width: 100%; border-radius: 8px; border: 1px solid #333;">
+            </div>
+        </div>
+        
+        
+    <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 15px; margin-bottom: 20px;">
+    <h3 style="margin-top: 0; color: #8b949e;">📉 Speed Trace Comparison (Interactive Overlay)</h3>
+    <p style="font-size: 0.8em; color: #666; margin-bottom: 10px;">Hover over table rows below to highlight specific drivers.</p>
+    <svg viewBox="0 0 1000 300" style="width: 100%; height: auto; display: block;">
+        <!-- Background Grid -->
+        <line x1="0" y1="300" x2="1000" y2="300" stroke="#30363d" stroke-width="2" />
+        <line x1="0" y1="0" x2="0" y2="300" stroke="#30363d" stroke-width="2" />
+        <text x="10" y="20" fill="#8b949e" font-size="12">249.0 km/h</text>
+        <text x="10" y="290" fill="#8b949e" font-size="12">174.6 km/h</text>
+    
+        <g class="trace-line trace-line-OCO">
+            <polyline points="0.0,220.32258064516128 52.63157894736842,230.9677419354839 105.26315789473684,246.4516129032258 157.89473684210526,249.35483870967738 210.52631578947367,249.67741935483866 263.1578947368421,259.0322580645161 315.7894736842105,243.22580645161287 368.4210526315789,194.83870967741933 421.05263157894734,181.61290322580643 473.6842105263158,155.80645161290323 526.3157894736842,150.96774193548384 578.9473684210526,131.93548387096772 631.578947368421,119.67741935483875 684.2105263157895,112.25806451612902 736.8421052631578,101.6129032258064 789.4736842105264,99.03225806451616 842.1052631578947,91.29032258064515 894.7368421052631,91.29032258064515 947.3684210526316,82.58064516129036 1000.0,59.03225806451613 " fill="none" stroke="#B6BABD" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>OCO</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-HUL">
+            <polyline points="0.0,189.03225806451616 52.63157894736842,206.45161290322577 105.26315789473684,238.38709677419354 157.89473684210526,243.8709677419355 210.52631578947367,246.77419354838702 263.1578947368421,252.25806451612902 315.7894736842105,245.80645161290323 368.4210526315789,226.77419354838707 421.05263157894734,211.29032258064512 473.6842105263158,190.32258064516122 526.3157894736842,180.32258064516128 578.9473684210526,168.06451612903228 631.578947368421,158.3870967741936 684.2105263157895,141.29032258064515 736.8421052631578,128.38709677419354 789.4736842105264,115.48387096774195 842.1052631578947,104.51612903225805 894.7368421052631,75.80645161290317 947.3684210526316,67.41935483870964 1000.0,55.80645161290323 " fill="none" stroke="#52E252" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>HUL</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-SAI">
+            <polyline points="0.0,185.1612903225806 52.63157894736842,198.70967741935488 105.26315789473684,211.29032258064512 157.89473684210526,218.06451612903228 210.52631578947367,232.9032258064516 263.1578947368421,240.32258064516122 315.7894736842105,242.25806451612902 368.4210526315789,236.77419354838707 421.05263157894734,214.51612903225802 473.6842105263158,174.1935483870967 526.3157894736842,149.35483870967744 578.9473684210526,141.29032258064515 631.578947368421,129.0322580645161 684.2105263157895,112.5806451612903 736.8421052631578,101.93548387096777 789.4736842105264,90.9677419354839 842.1052631578947,75.16129032258064 894.7368421052631,70.00000000000003 947.3684210526316,60.00000000000003 1000.0,49.99999999999994 " fill="none" stroke="#64C4FF" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>SAI</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-GAS">
+            <polyline points="0.0,206.45161290322577 52.63157894736842,214.8387096774194 105.26315789473684,231.61290322580646 157.89473684210526,240.32258064516122 210.52631578947367,247.4193548387097 263.1578947368421,249.35483870967738 315.7894736842105,252.5806451612903 368.4210526315789,250.64516129032256 421.05263157894734,225.4838709677419 473.6842105263158,210.00000000000003 526.3157894736842,201.29032258064512 578.9473684210526,183.87096774193543 631.578947368421,148.38709677419348 684.2105263157895,138.7096774193548 736.8421052631578,131.61290322580643 789.4736842105264,120.96774193548382 842.1052631578947,99.99999999999997 894.7368421052631,90.64516129032262 947.3684210526316,78.06451612903226 1000.0,69.03225806451613 " fill="none" stroke="#0093CC" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>GAS</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-STR">
+            <polyline points="0.0,181.61290322580643 52.63157894736842,193.54838709677415 105.26315789473684,211.61290322580646 157.89473684210526,223.2258064516129 210.52631578947367,232.58064516129036 263.1578947368421,229.67741935483872 315.7894736842105,225.80645161290317 368.4210526315789,222.258064516129 421.05263157894734,211.61290322580646 473.6842105263158,184.1935483870968 526.3157894736842,166.45161290322585 578.9473684210526,146.1290322580645 631.578947368421,137.74193548387098 684.2105263157895,117.09677419354838 736.8421052631578,107.74193548387095 789.4736842105264,99.67741935483866 842.1052631578947,85.80645161290326 894.7368421052631,77.741935483871 947.3684210526316,67.41935483870964 1000.0,50.64516129032259 " fill="none" stroke="#229971" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>STR</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-LAW">
+            <polyline points="0.0,233.22580645161287 52.63157894736842,240.32258064516122 105.26315789473684,249.67741935483866 157.89473684210526,253.8709677419355 210.52631578947367,268.38709677419354 263.1578947368421,270.0 315.7894736842105,257.0967741935484 368.4210526315789,239.03225806451616 421.05263157894734,230.0 473.6842105263158,203.8709677419355 526.3157894736842,195.1612903225806 578.9473684210526,173.22580645161293 631.578947368421,157.0967741935484 684.2105263157895,145.48387096774195 736.8421052631578,139.6774193548387 789.4736842105264,125.4838709677419 842.1052631578947,110.00000000000003 894.7368421052631,96.12903225806451 947.3684210526316,86.77419354838707 1000.0,75.16129032258064 " fill="none" stroke="#3671C6" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>LAW</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-TSU">
+            <polyline points="0.0,196.4516129032258 52.63157894736842,219.0322580645161 105.26315789473684,232.9032258064516 157.89473684210526,235.1612903225806 210.52631578947367,232.58064516129036 263.1578947368421,227.74193548387098 315.7894736842105,206.45161290322577 368.4210526315789,181.93548387096772 421.05263157894734,144.83870967741933 473.6842105263158,133.54838709677415 526.3157894736842,115.16129032258064 578.9473684210526,110.00000000000003 631.578947368421,99.67741935483866 684.2105263157895,91.93548387096772 736.8421052631578,83.54838709677418 789.4736842105264,73.87096774193546 842.1052631578947,63.225806451612925 894.7368421052631,57.419354838709694 947.3684210526316,49.03225806451613 1000.0,39.67741935483869 " fill="none" stroke="#6692FF" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>TSU</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-HAM">
+            <polyline points="0.0,169.67741935483872 52.63157894736842,183.87096774193543 105.26315789473684,192.5806451612903 157.89473684210526,224.83870967741936 210.52631578947367,238.06451612903226 263.1578947368421,249.35483870967738 315.7894736842105,247.0967741935484 368.4210526315789,239.35483870967744 421.05263157894734,221.93548387096772 473.6842105263158,214.51612903225802 526.3157894736842,177.09677419354836 578.9473684210526,168.06451612903228 631.578947368421,159.67741935483866 684.2105263157895,135.4838709677419 736.8421052631578,124.51612903225808 789.4736842105264,115.16129032258064 842.1052631578947,99.99999999999997 894.7368421052631,88.38709677419354 947.3684210526316,71.93548387096774 1000.0,71.93548387096774 " fill="none" stroke="#E80020" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>HAM</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-ALB">
+            <polyline points="0.0,231.61290322580646 52.63157894736842,238.06451612903226 105.26315789473684,260.0 157.89473684210526,262.9032258064516 210.52631578947367,255.48387096774195 263.1578947368421,252.25806451612902 315.7894736842105,248.38709677419348 368.4210526315789,228.70967741935482 421.05263157894734,205.80645161290323 473.6842105263158,178.06451612903226 526.3157894736842,163.8709677419355 578.9473684210526,145.80645161290323 631.578947368421,130.64516129032253 684.2105263157895,112.25806451612902 736.8421052631578,104.51612903225805 789.4736842105264,90.32258064516122 842.1052631578947,83.2258064516129 894.7368421052631,76.77419354838707 947.3684210526316,62.580645161290306 1000.0,58.709677419354875 " fill="none" stroke="#64C4FF" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>ALB</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-VER">
+            <polyline points="0.0,217.09677419354838 52.63157894736842,230.32258064516128 105.26315789473684,248.38709677419348 157.89473684210526,256.45161290322574 210.52631578947367,259.0322580645161 263.1578947368421,252.25806451612902 315.7894736842105,238.06451612903226 368.4210526315789,220.64516129032256 421.05263157894734,213.22580645161293 473.6842105263158,197.0967741935484 526.3157894736842,189.35483870967744 578.9473684210526,181.93548387096772 631.578947368421,159.03225806451613 684.2105263157895,148.38709677419348 736.8421052631578,130.64516129032253 789.4736842105264,118.70967741935485 842.1052631578947,104.51612903225805 894.7368421052631,93.54838709677415 947.3684210526316,82.258064516129 1000.0,71.93548387096774 " fill="none" stroke="#3671C6" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>VER</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-BOR">
+            <polyline points="0.0,207.74193548387092 52.63157894736842,211.29032258064512 105.26315789473684,213.5483870967742 157.89473684210526,224.83870967741936 210.52631578947367,243.54838709677415 263.1578947368421,259.67741935483866 315.7894736842105,266.12903225806446 368.4210526315789,252.5806451612903 421.05263157894734,240.32258064516122 473.6842105263158,206.45161290322577 526.3157894736842,182.258064516129 578.9473684210526,174.5161290322581 631.578947368421,164.19354838709677 684.2105263157895,152.5806451612903 736.8421052631578,124.19354838709671 789.4736842105264,116.7741935483871 842.1052631578947,104.8387096774193 894.7368421052631,92.58064516129033 947.3684210526316,82.258064516129 1000.0,78.38709677419354 " fill="none" stroke="#52E252" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>BOR</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-HAD">
+            <polyline points="0.0,239.67741935483872 52.63157894736842,241.29032258064512 105.26315789473684,242.9032258064516 157.89473684210526,242.9032258064516 210.52631578947367,215.48387096774192 263.1578947368421,198.06451612903223 315.7894736842105,175.4838709677419 368.4210526315789,155.80645161290323 421.05263157894734,155.80645161290323 473.6842105263158,139.03225806451616 526.3157894736842,130.32258064516125 578.9473684210526,111.29032258064512 631.578947368421,94.83870967741933 684.2105263157895,88.70967741935479 736.8421052631578,79.0322580645161 789.4736842105264,74.5161290322581 842.1052631578947,52.580645161290334 894.7368421052631,52.580645161290334 947.3684210526316,52.580645161290334 1000.0,30.0 " fill="none" stroke="#6692FF" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>HAD</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-DOO">
+            <polyline points="0.0,236.4516129032258 52.63157894736842,239.35483870967744 105.26315789473684,246.77419354838702 157.89473684210526,258.0645161290322 210.52631578947367,243.22580645161287 263.1578947368421,213.87096774193546 315.7894736842105,208.3870967741936 368.4210526315789,189.03225806451616 421.05263157894734,175.16129032258064 473.6842105263158,175.16129032258064 526.3157894736842,171.61290322580646 578.9473684210526,144.19354838709677 631.578947368421,119.67741935483875 684.2105263157895,106.77419354838713 736.8421052631578,95.48387096774195 789.4736842105264,88.70967741935479 842.1052631578947,74.5161290322581 894.7368421052631,67.74193548387095 947.3684210526316,48.064516129032256 1000.0,42.90322580645159 " fill="none" stroke="#0093CC" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>DOO</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-LEC">
+            <polyline points="0.0,158.70967741935485 52.63157894736842,174.83870967741936 105.26315789473684,210.32258064516128 157.89473684210526,228.38709677419354 210.52631578947367,233.22580645161287 263.1578947368421,230.6451612903225 315.7894736842105,227.09677419354836 368.4210526315789,207.74193548387092 421.05263157894734,200.96774193548384 473.6842105263158,196.77419354838705 526.3157894736842,169.0322580645161 578.9473684210526,154.19354838709677 631.578947368421,142.58064516129033 684.2105263157895,139.35483870967744 736.8421052631578,127.41935483870964 789.4736842105264,106.77419354838713 842.1052631578947,92.90322580645162 894.7368421052631,81.61290322580646 947.3684210526316,68.70967741935482 1000.0,59.03225806451613 " fill="none" stroke="#E80020" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>LEC</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-PIA">
+            <polyline points="0.0,184.83870967741933 52.63157894736842,187.4193548387097 105.26315789473684,200.3225806451613 157.89473684210526,213.87096774193546 210.52631578947367,225.80645161290317 263.1578947368421,233.54838709677415 315.7894736842105,238.06451612903226 368.4210526315789,235.80645161290323 421.05263157894734,219.35483870967738 473.6842105263158,210.64516129032256 526.3157894736842,204.8387096774193 578.9473684210526,181.29032258064518 631.578947368421,164.8387096774194 684.2105263157895,147.74193548387098 736.8421052631578,131.93548387096772 789.4736842105264,104.19354838709677 842.1052631578947,100.32258064516134 894.7368421052631,87.4193548387097 947.3684210526316,69.03225806451613 1000.0,58.709677419354875 " fill="none" stroke="#FF8000" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>PIA</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-ALO">
+            <polyline points="0.0,216.45161290322582 52.63157894736842,219.0322580645161 105.26315789473684,230.32258064516128 157.89473684210526,230.0 210.52631578947367,222.58064516129028 263.1578947368421,210.64516129032256 315.7894736842105,195.1612903225806 368.4210526315789,163.5483870967742 421.05263157894734,144.83870967741933 473.6842105263158,139.03225806451616 526.3157894736842,134.51612903225808 578.9473684210526,129.67741935483872 631.578947368421,109.67741935483866 684.2105263157895,106.12903225806451 736.8421052631578,96.12903225806451 789.4736842105264,85.16129032258061 842.1052631578947,79.67741935483872 894.7368421052631,69.67741935483875 947.3684210526316,54.8387096774193 1000.0,49.35483870967744 " fill="none" stroke="#229971" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>ALO</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-NOR">
+            <polyline points="0.0,197.74193548387095 52.63157894736842,205.16129032258067 105.26315789473684,218.06451612903228 157.89473684210526,226.77419354838707 210.52631578947367,226.77419354838707 263.1578947368421,203.8709677419355 315.7894736842105,193.87096774193552 368.4210526315789,179.03225806451607 421.05263157894734,163.8709677419355 473.6842105263158,151.93548387096777 526.3157894736842,143.22580645161287 578.9473684210526,134.19354838709683 631.578947368421,114.51612903225802 684.2105263157895,104.8387096774193 736.8421052631578,92.58064516129033 789.4736842105264,87.4193548387097 842.1052631578947,73.87096774193546 894.7368421052631,67.09677419354838 947.3684210526316,57.74193548387095 1000.0,49.35483870967744 " fill="none" stroke="#FF8000" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>NOR</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-RUS">
+            <polyline points="0.0,194.19354838709677 52.63157894736842,206.12903225806448 105.26315789473684,214.51612903225802 157.89473684210526,219.0322580645161 210.52631578947367,220.96774193548382 263.1578947368421,229.67741935483872 315.7894736842105,227.74193548387098 368.4210526315789,225.16129032258064 421.05263157894734,209.35483870967738 473.6842105263158,197.0967741935484 526.3157894736842,179.35483870967744 578.9473684210526,166.12903225806446 631.578947368421,147.74193548387098 684.2105263157895,134.83870967741933 736.8421052631578,124.83870967741939 789.4736842105264,110.64516129032256 842.1052631578947,95.48387096774195 894.7368421052631,81.29032258064518 947.3684210526316,72.90322580645164 1000.0,61.93548387096777 " fill="none" stroke="#27F4D2" stroke-width="1.5" stroke-opacity="0.4" vector-effect="non-scaling-stroke">
+                <title>RUS</title>
+            </polyline>
+        </g>
+        
+        <g class="trace-line trace-line-ANT">
+            <polyline points="0.0,235.1612903225806 52.63157894736842,245.48387096774195 105.26315789473684,255.48387096774195 157.89473684210526,249.67741935483866 210.52631578947367,245.1612903225806 263.1578947368421,227.74193548387098 315.7894736842105,214.51612903225802 368.4210526315789,203.8709677419355 421.05263157894734,178.70967741935482 473.6842105263158,168.06451612903228 526.3157894736842,155.80645161290323 578.9473684210526,155.80645161290323 631.578947368421,143.22580645161287 684.2105263157895,118.06451612903228 736.8421052631578,110.64516129032256 789.4736842105264,107.09677419354841 842.1052631578947,93.87096774193552 894.7368421052631,74.83870967741936 947.3684210526316,67.74193548387095 1000.0,65.48387096774192 " fill="none" stroke="#27F4D2" stroke-width="4" stroke-opacity="1.0" vector-effect="non-scaling-stroke">
+                <title>ANT</title>
+            </polyline>
+        </g>
+        </svg></div>
+
+        <div class="table-container">
+            <h3>🏎️ Detailed Driver Analysis (Interact with Table to Highlight Chart)</h3>
+            <table class="analysis-table">
+                <thead>
+                    <tr>
+                        <th>Driver</th>
+                        <th>Time Delta</th>
+                        <th>Line Type</th>
+                        <th>Entry</th>
+                        <th>Apex</th>
+                        <th>Exit</th>
+                        <th>Analysis Verdict</th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('ANT')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #27F4D2;">
+                            ANT <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #4CAF50; font-weight: bold; font-family: monospace;">+0.000s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>185.4</td>
+                        <td>179.0</td>
+                        <td>206.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>🏆 FASTEST SECTOR.</b> U-Style (Momentum) execution perfect. High steering workload (363).</td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('RUS')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #27F4D2;">
+                            RUS 
+                        </td>
+                        <td style="color: #FFC107; font-weight: bold; font-family: monospace;">+0.132s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>198.1</td>
+                        <td>187.0</td>
+                        <td>207.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;">Very smooth inputs (195). <b>Top Rotation (187km/h).</b></td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('NOR')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #FF8000;">
+                            NOR <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #FFC107; font-weight: bold; font-family: monospace;">+0.152s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>197.0</td>
+                        <td>188.0</td>
+                        <td>203.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;">Very smooth inputs (280). <b>Top Rotation (188km/h).</b></td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('ALO')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #229971;">
+                            ALO <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #FFC107; font-weight: bold; font-family: monospace;">+0.172s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>191.2</td>
+                        <td>186.0</td>
+                        <td>207.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;">Very smooth inputs (256).</td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('LEC')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #E80020;">
+                            LEC 
+                        </td>
+                        <td style="color: #FFC107; font-weight: bold; font-family: monospace;">+0.182s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>209.1</td>
+                        <td>186.0</td>
+                        <td>199.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('PIA')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #FF8000;">
+                            PIA 
+                        </td>
+                        <td style="color: #FFC107; font-weight: bold; font-family: monospace;">+0.182s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>201.0</td>
+                        <td>184.0</td>
+                        <td>210.9</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('DOO')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #0093CC;">
+                            DOO <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.231s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>185.0</td>
+                        <td>178.0</td>
+                        <td>204.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('HAD')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #6692FF;">
+                            HAD <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.232s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>184.0</td>
+                        <td>183.0</td>
+                        <td>210.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('BOR')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #52E252;">
+                            BOR <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.261s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>193.9</td>
+                        <td>175.0</td>
+                        <td>202.2</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('VER')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #3671C6;">
+                            VER <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.272s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>191.0</td>
+                        <td>178.0</td>
+                        <td>201.8</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('ALB')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #64C4FF;">
+                            ALB 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.292s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>186.5</td>
+                        <td>176.0</td>
+                        <td>195.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;">High steering workload (353).</td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('TSU')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #6692FF;">
+                            TSU 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.301s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>197.4</td>
+                        <td>185.0</td>
+                        <td>202.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.301s).</b></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('HAM')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #E80020;">
+                            HAM 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.301s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>205.7</td>
+                        <td>181.0</td>
+                        <td>204.8</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.301s).</b> High steering workload (350).</td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('LAW')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #3671C6;">
+                            LAW 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.313s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>186.0</td>
+                        <td>174.0</td>
+                        <td>199.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.313s).</b></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('STR')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #229971;">
+                            STR 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.323s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>202.0</td>
+                        <td>186.0</td>
+                        <td>206.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.323s).</b> Very smooth inputs (274).</td>
+                    </tr>
+        
+                    <tr style="background: rgba(255,255,255,0.05);" onmouseover="highlightDriver('GAS')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #0093CC;">
+                            GAS <span class="video-badge">VIDEO</span>
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.351s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>194.3</td>
+                        <td>180.0</td>
+                        <td>200.7</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.351s).</b></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('SAI')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #64C4FF;">
+                            SAI 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.373s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>200.9</td>
+                        <td>183.0</td>
+                        <td>205.5</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.373s).</b></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('HUL')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #52E252;">
+                            HUL 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.382s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>199.7</td>
+                        <td>180.0</td>
+                        <td>207.4</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.382s).</b></td>
+                    </tr>
+        
+                    <tr style="" onmouseover="highlightDriver('OCO')" onmouseout="resetHighlight()">
+                        <td style="font-weight: bold; color: #B6BABD;">
+                            OCO 
+                        </td>
+                        <td style="color: #F44336; font-weight: bold; font-family: monospace;">+0.391s</td>
+                        <td style="font-size: 0.9em; color: #aaa;">U-Style (Momentum)</td>
+                        <td>190.0</td>
+                        <td>178.0</td>
+                        <td>203.0</td>
+                        <td style="text-align: left; color: #ccc; font-size: 0.9em;"><b>📉 MAJOR LOSS (+0.391s).</b> High steering workload (378).</td>
+                    </tr>
+        
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
     <section>
         <h2>🏁 Technical Deep Dive: Race Simulations</h2>
         
+        <!-- CHART.JS INJECTION -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        
         <div class="insight-box" style="border-left: 4px solid #BB86FC;">
-            <h4 style="color: #BB86FC; margin: 0 0 10px 0;">📈 True Race Pace Analysis (Stints >= 8 Laps)</h4>
+            <h4 style="color: #BB86FC; margin: 0 0 10px 0;">📈 True Race Pace Analysis (Interactive)</h4>
             <p style="margin-bottom: 15px;">
-                Comparison of high-fuel race simulation stints. Drivers are grouped by compound and ranked by <b>Average Pace</b>.
-                Dotted lines in the chart below represent the degradation trend.
+                Comparison of high-fuel race simulation stints (>= 8 Laps). 
+                <b>Click legend items</b> to hide/show drivers. Outliers (>107%) have been automatically filtered.
             </p>
             
             <!-- TEAM ADVANTAGE VERDICT -->
@@ -194,7 +1442,7 @@
         <div class="insight-box" style="border-left: 4px solid #4CAF50; margin-bottom: 20px;">
             <h4 style="color: #4CAF50; margin: 0 0 10px 0;">🏆 Competitive Verdict (Team Advantage)</h4>
             <ul style="margin: 0; padding-left: 20px; color: #e6edf3;">
-                <li style="margin-bottom:5px;"><b>Medium Compound Dominance:</b> <b>4</b> sets the benchmark with a 81.921s average, holding a <b>0.253s advantage</b> over 81.</li><li style="margin-bottom:5px;"><b>High Degradation Alert:</b> 14, 27, 31 are struggling with thermal management (>0.1s/lap drop).</li><li style="margin-bottom:5px;"><b>Crossover Insight:</b> The Hard compound is approximately <b>-0.464s slower</b> than the Medium, making it a viable race tyre if degradation is managed.</li>
+                <li style="margin-bottom:5px;"><b>Medium Compound Dominance:</b> <b>NOR</b> sets the benchmark with a 81.921s average, holding a <b>0.253s advantage</b> over PIA.</li><li style="margin-bottom:5px;"><b>High Degradation Alert:</b> ALO, HUL, OCO are struggling with thermal management (>0.1s/lap drop).</li><li style="margin-bottom:5px;"><b>Crossover Insight:</b> The Hard compound is approximately <b>-0.464s slower</b> than the Medium, making it a viable race tyre if degradation is managed.</li>
             </ul>
         </div>
         
@@ -216,7 +1464,7 @@
                 </thead>
                 <tbody>
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#0093CC">10</td>
+                <td style="padding: 6px; font-weight:bold; color:#0093CC">GAS</td>
                 <td style="padding: 6px; text-align: center;">10</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">83.723s</td>
                 <td style="padding: 6px; text-align: right; color:#4CAF50; font-size:0.9em;">+0.003</td>
@@ -241,98 +1489,98 @@
                 </thead>
                 <tbody>
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#FF8000">4</td>
+                <td style="padding: 6px; font-weight:bold; color:#FF8000">NOR</td>
                 <td style="padding: 6px; text-align: center;">9</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">81.921s</td>
                 <td style="padding: 6px; text-align: right; color:#4CAF50; font-size:0.9em;">-0.111</td>
             </tr>
             
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#FF8000">81</td>
+                <td style="padding: 6px; font-weight:bold; color:#FF8000">PIA</td>
                 <td style="padding: 6px; text-align: center;">9</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">82.174s</td>
                 <td style="padding: 6px; text-align: right; color:#4CAF50; font-size:0.9em;">-0.052</td>
             </tr>
             
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#E80020">44</td>
+                <td style="padding: 6px; font-weight:bold; color:#E80020">HAM</td>
                 <td style="padding: 6px; text-align: center;">12</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">82.228s</td>
                 <td style="padding: 6px; text-align: right; color:#4CAF50; font-size:0.9em;">-0.144</td>
             </tr>
             
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#6692FF">22</td>
+                <td style="padding: 6px; font-weight:bold; color:#6692FF">TSU</td>
                 <td style="padding: 6px; text-align: center;">15</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">82.580s</td>
                 <td style="padding: 6px; text-align: right; color:#4CAF50; font-size:0.9em;">+0.011</td>
             </tr>
             
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#0093CC">7</td>
+                <td style="padding: 6px; font-weight:bold; color:#0093CC">DOO</td>
                 <td style="padding: 6px; text-align: center;">12</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">82.726s</td>
                 <td style="padding: 6px; text-align: right; color:#FFC107; font-size:0.9em;">+0.051</td>
             </tr>
             
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#E80020">16</td>
+                <td style="padding: 6px; font-weight:bold; color:#E80020">LEC</td>
                 <td style="padding: 6px; text-align: center;">13</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">82.833s</td>
                 <td style="padding: 6px; text-align: right; color:#FFC107; font-size:0.9em;">+0.098</td>
             </tr>
             
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#6692FF">6</td>
+                <td style="padding: 6px; font-weight:bold; color:#6692FF">HAD</td>
                 <td style="padding: 6px; text-align: center;">9</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">83.123s</td>
                 <td style="padding: 6px; text-align: right; color:#4CAF50; font-size:0.9em;">-0.182</td>
             </tr>
             
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#229971">18</td>
+                <td style="padding: 6px; font-weight:bold; color:#229971">STR</td>
                 <td style="padding: 6px; text-align: center;">12</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">83.146s</td>
                 <td style="padding: 6px; text-align: right; color:#4CAF50; font-size:0.9em;">-0.048</td>
             </tr>
             
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#64C4FF">55</td>
+                <td style="padding: 6px; font-weight:bold; color:#64C4FF">SAI</td>
                 <td style="padding: 6px; text-align: center;">11</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">83.208s</td>
                 <td style="padding: 6px; text-align: right; color:#4CAF50; font-size:0.9em;">-0.083</td>
             </tr>
             
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#3671C6">30</td>
+                <td style="padding: 6px; font-weight:bold; color:#3671C6">LAW</td>
                 <td style="padding: 6px; text-align: center;">11</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">83.400s</td>
                 <td style="padding: 6px; text-align: right; color:#4CAF50; font-size:0.9em;">-0.077</td>
             </tr>
             
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#52E252">5</td>
+                <td style="padding: 6px; font-weight:bold; color:#52E252">BOR</td>
                 <td style="padding: 6px; text-align: center;">9</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">83.994s</td>
                 <td style="padding: 6px; text-align: right; color:#4CAF50; font-size:0.9em;">-0.284</td>
             </tr>
             
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#229971">14</td>
+                <td style="padding: 6px; font-weight:bold; color:#229971">ALO</td>
                 <td style="padding: 6px; text-align: center;">13</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">87.174s</td>
                 <td style="padding: 6px; text-align: right; color:#F44336; font-size:0.9em;">+1.787</td>
             </tr>
             
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#52E252">27</td>
+                <td style="padding: 6px; font-weight:bold; color:#52E252">HUL</td>
                 <td style="padding: 6px; text-align: center;">11</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">88.393s</td>
                 <td style="padding: 6px; text-align: right; color:#F44336; font-size:0.9em;">+2.223</td>
             </tr>
             
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#B6BABD">31</td>
+                <td style="padding: 6px; font-weight:bold; color:#B6BABD">OCO</td>
                 <td style="padding: 6px; text-align: center;">11</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">88.870s</td>
                 <td style="padding: 6px; text-align: right; color:#F44336; font-size:0.9em;">+2.703</td>
@@ -357,14 +1605,14 @@
                 </thead>
                 <tbody>
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#27F4D2">12</td>
+                <td style="padding: 6px; font-weight:bold; color:#27F4D2">ANT</td>
                 <td style="padding: 6px; text-align: center;">11</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">82.318s</td>
                 <td style="padding: 6px; text-align: right; color:#4CAF50; font-size:0.9em;">-0.129</td>
             </tr>
             
             <tr style="border-bottom: 1px solid #30363d;">
-                <td style="padding: 6px; font-weight:bold; color:#27F4D2">63</td>
+                <td style="padding: 6px; font-weight:bold; color:#27F4D2">RUS</td>
                 <td style="padding: 6px; text-align: center;">14</td>
                 <td style="padding: 6px; text-align: right; font-family:monospace; font-weight:bold;">84.721s</td>
                 <td style="padding: 6px; text-align: right; color:#F44336; font-size:0.9em;">+0.176</td>
@@ -375,10 +1623,179 @@
         
             </div>
 
-            <div style="margin: 20px 0; text-align: center;">
-                <img src="Long_Run_Analysis.png" alt="Long Run Chart" style="width: 100%; border-radius: 8px; border: 1px solid #30363d;">
+            <div style="margin: 20px 0; background: rgba(22, 27, 34, 0.5); padding: 10px; border-radius: 8px;">
+                <canvas id="racePaceChart" style="width: 100%; height: 500px;"></canvas>
+            </div>
+            
+            <script>
+                const ctx = document.getElementById('racePaceChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'scatter',
+                    data: {
+                        datasets: [{"label": "NOR (M)", "data": [{"x": 18.0, "y": 82.246}, {"x": 19.0, "y": 82.446}, {"x": 20.0, "y": 81.993}, {"x": 21.0, "y": 82.112}, {"x": 22.0, "y": 81.916}, {"x": 23.0, "y": 81.815}, {"x": 24.0, "y": 81.82}, {"x": 25.0, "y": 81.466}, {"x": 26.0, "y": 81.474}], "borderColor": "#FF8000", "backgroundColor": "#FF8000", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "BOR (M)", "data": [{"x": 19.0, "y": 85.012}, {"x": 20.0, "y": 84.939}, {"x": 21.0, "y": 84.223}, {"x": 22.0, "y": 85.238}, {"x": 23.0, "y": 83.93}, {"x": 24.0, "y": 83.013}, {"x": 25.0, "y": 83.377}, {"x": 26.0, "y": 83.082}, {"x": 27.0, "y": 83.13}], "borderColor": "#52E252", "backgroundColor": "#52E252", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "HAD (M)", "data": [{"x": 18.0, "y": 83.047}, {"x": 19.0, "y": 86.445}, {"x": 20.0, "y": 81.932}, {"x": 21.0, "y": 82.452}, {"x": 22.0, "y": 83.304}, {"x": 23.0, "y": 82.67}, {"x": 24.0, "y": 83.012}, {"x": 25.0, "y": 82.75}, {"x": 26.0, "y": 82.496}], "borderColor": "#6692FF", "backgroundColor": "#6692FF", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "DOO (M)", "data": [{"x": 17.0, "y": 82.757}, {"x": 18.0, "y": 82.597}, {"x": 19.0, "y": 82.557}, {"x": 20.0, "y": 82.474}, {"x": 21.0, "y": 82.557}, {"x": 22.0, "y": 82.763}, {"x": 23.0, "y": 82.669}, {"x": 24.0, "y": 82.378}, {"x": 25.0, "y": 82.597}, {"x": 26.0, "y": 82.604}, {"x": 27.0, "y": 83.123}, {"x": 28.0, "y": 83.635}], "borderColor": "#0093CC", "backgroundColor": "#0093CC", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "GAS (S)", "data": [{"x": 17.0, "y": 82.294}, {"x": 18.0, "y": 88.45}, {"x": 19.0, "y": 82.203}, {"x": 20.0, "y": 82.521}, {"x": 21.0, "y": 82.858}, {"x": 22.0, "y": 83.282}, {"x": 23.0, "y": 83.259}, {"x": 24.0, "y": 83.609}, {"x": 25.0, "y": 84.071}, {"x": 26.0, "y": 84.685}], "borderColor": "#0093CC", "backgroundColor": "#0093CC", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "ANT (H)", "data": [{"x": 17.0, "y": 82.699}, {"x": 18.0, "y": 82.159}, {"x": 19.0, "y": 84.563}, {"x": 20.0, "y": 82.301}, {"x": 21.0, "y": 82.124}, {"x": 22.0, "y": 82.185}, {"x": 23.0, "y": 81.97}, {"x": 24.0, "y": 81.961}, {"x": 25.0, "y": 81.9}, {"x": 26.0, "y": 81.485}, {"x": 27.0, "y": 82.156}], "borderColor": "#27F4D2", "backgroundColor": "#27F4D2", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "ALO (M)", "data": [{"x": 14.0, "y": 83.876}, {"x": 15.0, "y": 83.27}, {"x": 16.0, "y": 83.109}, {"x": 17.0, "y": 82.57}, {"x": 18.0, "y": 82.648}, {"x": 19.0, "y": 82.888}, {"x": 20.0, "y": 82.585}, {"x": 21.0, "y": 82.965}, {"x": 22.0, "y": 82.715}, {"x": 23.0, "y": 82.416}, {"x": 24.0, "y": 82.689}, {"x": 25.0, "y": 82.441}], "borderColor": "#229971", "backgroundColor": "#229971", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "LEC (M)", "data": [{"x": 18.0, "y": 83.237}, {"x": 19.0, "y": 82.555}, {"x": 20.0, "y": 82.457}, {"x": 21.0, "y": 82.614}, {"x": 22.0, "y": 82.167}, {"x": 23.0, "y": 81.771}, {"x": 24.0, "y": 81.695}, {"x": 25.0, "y": 81.207}, {"x": 26.0, "y": 82.618}, {"x": 27.0, "y": 82.873}, {"x": 29.0, "y": 80.825}, {"x": 30.0, "y": 81.665}], "borderColor": "#E80020", "backgroundColor": "#E80020", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "STR (M)", "data": [{"x": 15.0, "y": 82.684}, {"x": 16.0, "y": 82.648}, {"x": 17.0, "y": 83.284}, {"x": 18.0, "y": 82.524}, {"x": 19.0, "y": 87.899}, {"x": 20.0, "y": 82.365}, {"x": 21.0, "y": 82.48}, {"x": 22.0, "y": 82.696}, {"x": 23.0, "y": 82.554}, {"x": 24.0, "y": 82.733}, {"x": 25.0, "y": 82.983}, {"x": 26.0, "y": 82.897}], "borderColor": "#229971", "backgroundColor": "#229971", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "TSU (M)", "data": [{"x": 13.0, "y": 82.392}, {"x": 14.0, "y": 82.72}, {"x": 15.0, "y": 82.362}, {"x": 16.0, "y": 82.421}, {"x": 17.0, "y": 82.508}, {"x": 18.0, "y": 82.635}, {"x": 19.0, "y": 82.496}, {"x": 20.0, "y": 82.594}, {"x": 21.0, "y": 83.083}, {"x": 22.0, "y": 82.469}, {"x": 23.0, "y": 82.563}, {"x": 24.0, "y": 82.635}, {"x": 25.0, "y": 82.753}, {"x": 26.0, "y": 82.488}, {"x": 27.0, "y": 82.588}], "borderColor": "#6692FF", "backgroundColor": "#6692FF", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "HUL (M)", "data": [{"x": 14.0, "y": 82.059}, {"x": 15.0, "y": 82.477}, {"x": 16.0, "y": 82.448}, {"x": 17.0, "y": 82.72}, {"x": 18.0, "y": 83.098}, {"x": 19.0, "y": 85.466}, {"x": 20.0, "y": 82.305}, {"x": 21.0, "y": 82.34}, {"x": 22.0, "y": 83.285}], "borderColor": "#52E252", "backgroundColor": "#52E252", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "LAW (M)", "data": [{"x": 18.0, "y": 84.261}, {"x": 19.0, "y": 83.801}, {"x": 20.0, "y": 83.314}, {"x": 21.0, "y": 83.936}, {"x": 22.0, "y": 83.156}, {"x": 23.0, "y": 82.773}, {"x": 24.0, "y": 83.248}, {"x": 25.0, "y": 83.035}, {"x": 26.0, "y": 82.711}, {"x": 27.0, "y": 84.235}, {"x": 28.0, "y": 82.933}], "borderColor": "#3671C6", "backgroundColor": "#3671C6", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "OCO (M)", "data": [{"x": 20.0, "y": 83.12}, {"x": 21.0, "y": 83.242}, {"x": 22.0, "y": 83.147}, {"x": 23.0, "y": 83.066}, {"x": 24.0, "y": 86.055}, {"x": 25.0, "y": 82.885}, {"x": 26.0, "y": 83.199}, {"x": 27.0, "y": 83.204}, {"x": 28.0, "y": 83.196}, {"x": 29.0, "y": 83.984}], "borderColor": "#B6BABD", "backgroundColor": "#B6BABD", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "HAM (M)", "data": [{"x": 18.0, "y": 83.332}, {"x": 19.0, "y": 82.774}, {"x": 20.0, "y": 82.671}, {"x": 21.0, "y": 82.188}, {"x": 22.0, "y": 82.705}, {"x": 23.0, "y": 82.253}, {"x": 24.0, "y": 82.086}, {"x": 25.0, "y": 81.85}, {"x": 26.0, "y": 82.003}, {"x": 27.0, "y": 82.043}, {"x": 28.0, "y": 81.297}, {"x": 29.0, "y": 81.538}], "borderColor": "#E80020", "backgroundColor": "#E80020", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "SAI (M)", "data": [{"x": 16.0, "y": 82.513}, {"x": 17.0, "y": 82.153}, {"x": 18.0, "y": 82.173}, {"x": 19.0, "y": 82.338}, {"x": 21.0, "y": 83.355}, {"x": 22.0, "y": 82.728}, {"x": 23.0, "y": 82.337}, {"x": 24.0, "y": 82.085}, {"x": 25.0, "y": 82.097}, {"x": 26.0, "y": 82.445}], "borderColor": "#64C4FF", "backgroundColor": "#64C4FF", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "RUS (H)", "data": [{"x": 15.0, "y": 82.244}, {"x": 16.0, "y": 81.755}, {"x": 17.0, "y": 82.0}, {"x": 19.0, "y": 82.411}, {"x": 20.0, "y": 82.201}, {"x": 21.0, "y": 82.037}, {"x": 22.0, "y": 81.739}, {"x": 25.0, "y": 81.646}, {"x": 26.0, "y": 81.582}, {"x": 27.0, "y": 81.876}, {"x": 28.0, "y": 81.763}], "borderColor": "#27F4D2", "backgroundColor": "#27F4D2", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}, {"label": "PIA (M)", "data": [{"x": 18.0, "y": 82.908}, {"x": 19.0, "y": 82.139}, {"x": 20.0, "y": 81.84}, {"x": 21.0, "y": 82.288}, {"x": 22.0, "y": 82.175}, {"x": 23.0, "y": 82.004}, {"x": 24.0, "y": 81.864}, {"x": 25.0, "y": 82.202}, {"x": 26.0, "y": 82.146}], "borderColor": "#FF8000", "backgroundColor": "#FF8000", "borderWidth": 2, "pointRadius": 3, "showLine": true, "fill": false, "tension": 0.2}]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        interaction: {
+                            mode: 'nearest',
+                            axis: 'x',
+                            intersect: false
+                        },
+                        scales: {
+                            x: {
+                                title: { display: true, text: 'Lap Number', color: '#8b949e' },
+                                grid: { color: '#30363d' },
+                                ticks: { color: '#c9d1d9' }
+                            },
+                            y: {
+                                title: { display: true, text: 'Lap Time (s)', color: '#8b949e' },
+                                grid: { color: '#30363d' },
+                                ticks: { color: '#c9d1d9' }
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                labels: { color: '#c9d1d9' }
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        return context.dataset.label + ': ' + context.parsed.y.toFixed(3) + 's';
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            </script>
+        </div>
+    </section>
+    
+    <section>
+        <h2>⚔️ Team Performance Battle: The Grid Hierarchy</h2>
+        <div style="display:flex; gap:20px; margin-bottom:20px;">
+            <div style="flex:1; background:rgba(54, 113, 198, 0.1); border:1px solid #3671C6; padding:15px; border-radius:8px;">
+                <h3 style="margin-top:0; color:#3671C6;">🐢 Race Pace Master: McLaren</h3>
+                <p style="color:#ccc; font-size:0.9em;">
+                    <b>McLaren</b> is showing the strongest long-run consistency. 
+                    This suggests superior tyre management and a balanced setup optimized for Sunday.
+                </p>
+            </div>
+            <div style="flex:1; background:rgba(255, 135, 0, 0.1); border:1px solid #FF8700; padding:15px; border-radius:8px;">
+                <h3 style="margin-top:0; color:#FF8700;">🚀 Straight Line Rocket: Alpine</h3>
+                <p style="color:#ccc; font-size:0.9em;">
+                    <b>Alpine</b> tops the speed traps (328.5 km/h avg), 
+                    indicating a highly efficient low-drag philosophy or a powerful engine mode usage.
+                </p>
             </div>
         </div>
+        
+        <table class="analysis-table">
+            <thead>
+                <tr>
+                    <th style="width:50px;">Rank</th>
+                    <th>Team</th>
+                    <th style="text-align:center;">Avg Race Pace</th>
+                    <th style="text-align:center;">Pace Deficit</th>
+                    <th style="text-align:center;">Top Speed (Avg)</th>
+                    <th style="text-align:left;">Analysis</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+        <tr>
+            <td style="font-weight:bold; color:#8b949e;">#1</td>
+            <td style="font-weight:bold;">McLaren</td>
+            <td style="font-family:monospace; text-align:center;">82.048s</td>
+            <td style="color:#4CAF50; text-align:center;">+0.000s</td>
+            <td style="text-align:center;">323.5 km/h (#4)</td>
+            <td style="color:#ccc; font-size:0.9em;">Reference race pace.</td>
+        </tr>
+        
+        <tr>
+            <td style="font-weight:bold; color:#8b949e;">#2</td>
+            <td style="font-weight:bold;">Ferrari</td>
+            <td style="font-family:monospace; text-align:center;">82.530s</td>
+            <td style="color:#F44336; text-align:center;">+0.483s</td>
+            <td style="text-align:center;">323.0 km/h (#7)</td>
+            <td style="color:#ccc; font-size:0.9em;">Best of the rest contender.</td>
+        </tr>
+        
+        <tr>
+            <td style="font-weight:bold; color:#8b949e;">#3</td>
+            <td style="font-weight:bold;">Racing Bulls</td>
+            <td style="font-family:monospace; text-align:center;">82.852s</td>
+            <td style="color:#F44336; text-align:center;">+0.804s</td>
+            <td style="text-align:center;">325.5 km/h (#3)</td>
+            <td style="color:#ccc; font-size:0.9em;">Best of the rest contender.</td>
+        </tr>
+        
+        <tr>
+            <td style="font-weight:bold; color:#8b949e;">#4</td>
+            <td style="font-weight:bold;">Williams</td>
+            <td style="font-family:monospace; text-align:center;">83.208s</td>
+            <td style="color:#F44336; text-align:center;">+1.160s</td>
+            <td style="text-align:center;">322.0 km/h (#9)</td>
+            <td style="color:#ccc; font-size:0.9em;">Struggling with race trim.</td>
+        </tr>
+        
+        <tr>
+            <td style="font-weight:bold; color:#8b949e;">#5</td>
+            <td style="font-weight:bold;">Alpine</td>
+            <td style="font-family:monospace; text-align:center;">83.225s</td>
+            <td style="color:#F44336; text-align:center;">+1.177s</td>
+            <td style="text-align:center;">328.5 km/h (#1)</td>
+            <td style="color:#ccc; font-size:0.9em;">Struggling with race trim. <b>Low Drag / High Power.</b></td>
+        </tr>
+        
+        <tr>
+            <td style="font-weight:bold; color:#8b949e;">#6</td>
+            <td style="font-weight:bold;">Red Bull Racing</td>
+            <td style="font-family:monospace; text-align:center;">83.400s</td>
+            <td style="color:#F44336; text-align:center;">+1.352s</td>
+            <td style="text-align:center;">326.0 km/h (#2)</td>
+            <td style="color:#ccc; font-size:0.9em;">Struggling with race trim.</td>
+        </tr>
+        
+        <tr>
+            <td style="font-weight:bold; color:#8b949e;">#7</td>
+            <td style="font-weight:bold;">Mercedes</td>
+            <td style="font-family:monospace; text-align:center;">83.519s</td>
+            <td style="color:#F44336; text-align:center;">+1.472s</td>
+            <td style="text-align:center;">321.0 km/h (#10)</td>
+            <td style="color:#ccc; font-size:0.9em;">Struggling with race trim.</td>
+        </tr>
+        
+        <tr>
+            <td style="font-weight:bold; color:#8b949e;">#8</td>
+            <td style="font-weight:bold;">Aston Martin</td>
+            <td style="font-family:monospace; text-align:center;">85.160s</td>
+            <td style="color:#F44336; text-align:center;">+3.112s</td>
+            <td style="text-align:center;">323.5 km/h (#6)</td>
+            <td style="color:#ccc; font-size:0.9em;">Struggling with race trim.</td>
+        </tr>
+        
+        <tr>
+            <td style="font-weight:bold; color:#8b949e;">#9</td>
+            <td style="font-weight:bold;">Kick Sauber</td>
+            <td style="font-family:monospace; text-align:center;">86.194s</td>
+            <td style="color:#F44336; text-align:center;">+4.146s</td>
+            <td style="text-align:center;">323.5 km/h (#5)</td>
+            <td style="color:#ccc; font-size:0.9em;">Struggling with race trim.</td>
+        </tr>
+        
+        <tr>
+            <td style="font-weight:bold; color:#8b949e;">#10</td>
+            <td style="font-weight:bold;">Haas F1 Team</td>
+            <td style="font-family:monospace; text-align:center;">88.870s</td>
+            <td style="color:#F44336; text-align:center;">+6.822s</td>
+            <td style="text-align:center;">323.0 km/h (#8)</td>
+            <td style="color:#ccc; font-size:0.9em;">Struggling with race trim.</td>
+        </tr>
+        
+            </tbody>
+        </table>
     </section>
     
     <section>
@@ -389,7 +1806,7 @@
             <h3 style="margin: 0 0 5px 0; color: #e6edf3;">Red Bull Racing</h3>
             <div style="font-size: 0.9em; color: #8b949e; margin-bottom: 15px; font-weight:bold; letter-spacing: 1px;">VER / LAW</div>
             <ul style="margin: 0; padding-left: 20px; color: #ccc; line-height: 1.5;">
-                <li style="margin-bottom:8px;">Both drivers show very similar setup characteristics with negligible performance delta across the lap.</li>
+                <li style="margin-bottom:8px;"><b>Drag Efficiency:</b> Both drivers have identical straight-line performance (~327 kph), indicating matched wing levels.</li><li style="margin-bottom:8px;"><b>High Speed King:</b> VER dominates high-speed sections (+4.0kph), suggesting a more confident aero balance or lower drag setup.</li><li style="margin-bottom:8px;"><b>Braking Confidence:</b> LAW attacks the braking zones harder (+6.0kph).</li>
             </ul>
         </div>
         
@@ -397,7 +1814,7 @@
             <h3 style="margin: 0 0 5px 0; color: #e6edf3;">McLaren</h3>
             <div style="font-size: 0.9em; color: #8b949e; margin-bottom: 15px; font-weight:bold; letter-spacing: 1px;">NOR / PIA</div>
             <ul style="margin: 0; padding-left: 20px; color: #ccc; line-height: 1.5;">
-                <li style="margin-bottom:8px;">Both drivers show very similar setup characteristics with negligible performance delta across the lap.</li>
+                <li style="margin-bottom:8px;"><b>Drag Efficiency:</b> Both drivers have identical straight-line performance (~324 kph), indicating matched wing levels.</li><li style="margin-bottom:8px;"><b>High Speed King:</b> NOR dominates high-speed sections (+4.0kph), suggesting a more confident aero balance or lower drag setup.</li><li style="margin-bottom:8px;"><b>Braking Confidence:</b> PIA attacks the braking zones harder (+12.9kph).</li><li style="margin-bottom:8px;"><b>Race Trim Advantage:</b> NOR holds a solid pace advantage (<b>-0.253s/lap</b>), indicating superior tyre management.</li>
             </ul>
         </div>
         
@@ -405,7 +1822,7 @@
             <h3 style="margin: 0 0 5px 0; color: #e6edf3;">Kick Sauber</h3>
             <div style="font-size: 0.9em; color: #8b949e; margin-bottom: 15px; font-weight:bold; letter-spacing: 1px;">BOR / HUL</div>
             <ul style="margin: 0; padding-left: 20px; color: #ccc; line-height: 1.5;">
-                <li style="margin-bottom:8px;">Both drivers show very similar setup characteristics with negligible performance delta across the lap.</li>
+                <li style="margin-bottom:8px;"><b>Straight Line Power:</b> HUL is faster on the straights (<b>326 vs 321 kph</b>).</li><li style="margin-bottom:8px;"><b>High Speed King:</b> HUL leads in high-speed sections (+5.0kph).</li><li style="margin-bottom:8px;"><b>Braking Confidence:</b> HUL attacks the braking zones harder (+4.0kph).</li><li style="margin-bottom:8px;"><b>Race Trim Advantage:</b> BOR holds a solid pace advantage (<b>-4.399s/lap</b>), indicating superior tyre management.</li>
             </ul>
         </div>
         
@@ -413,7 +1830,7 @@
             <h3 style="margin: 0 0 5px 0; color: #e6edf3;">Racing Bulls</h3>
             <div style="font-size: 0.9em; color: #8b949e; margin-bottom: 15px; font-weight:bold; letter-spacing: 1px;">HAD / TSU</div>
             <ul style="margin: 0; padding-left: 20px; color: #ccc; line-height: 1.5;">
-                <li style="margin-bottom:8px;">Both drivers show very similar setup characteristics with negligible performance delta across the lap.</li>
+                <li style="margin-bottom:8px;"><b>Drag Efficiency:</b> Both drivers have identical straight-line performance (~326 kph), indicating matched wing levels.</li><li style="margin-bottom:8px;"><b>Braking Confidence:</b> HAD carries significantly more speed into T3 (+20.1kph), showing superior entry stability.</li><li style="margin-bottom:8px;"><b>Race Trim Advantage:</b> TSU looks stronger in race simulations (<b>-0.543s/lap</b>).</li>
             </ul>
         </div>
         
@@ -421,7 +1838,7 @@
             <h3 style="margin: 0 0 5px 0; color: #e6edf3;">Alpine</h3>
             <div style="font-size: 0.9em; color: #8b949e; margin-bottom: 15px; font-weight:bold; letter-spacing: 1px;">DOO / GAS</div>
             <ul style="margin: 0; padding-left: 20px; color: #ccc; line-height: 1.5;">
-                <li style="margin-bottom:8px;">Both drivers show very similar setup characteristics with negligible performance delta across the lap.</li>
+                <li style="margin-bottom:8px;"><b>Drag Efficiency:</b> Both drivers have identical straight-line performance (~329 kph), indicating matched wing levels.</li><li style="margin-bottom:8px;"><b>Braking Confidence:</b> GAS attacks the braking zones harder (+10.0kph).</li><li style="margin-bottom:8px;"><b>Race Trim Advantage:</b> DOO holds a solid pace advantage (<b>-0.997s/lap</b>), indicating superior tyre management.</li>
             </ul>
         </div>
         
@@ -429,7 +1846,7 @@
             <h3 style="margin: 0 0 5px 0; color: #e6edf3;">Mercedes</h3>
             <div style="font-size: 0.9em; color: #8b949e; margin-bottom: 15px; font-weight:bold; letter-spacing: 1px;">ANT / RUS</div>
             <ul style="margin: 0; padding-left: 20px; color: #ccc; line-height: 1.5;">
-                <li style="margin-bottom:8px;">Both drivers show very similar setup characteristics with negligible performance delta across the lap.</li>
+                <li style="margin-bottom:8px;"><b>Drag Efficiency:</b> Both drivers have identical straight-line performance (~321 kph), indicating matched wing levels.</li><li style="margin-bottom:8px;"><b>High Speed King:</b> RUS leads in high-speed sections (+8.0kph).</li><li style="margin-bottom:8px;"><b>Race Trim Advantage:</b> ANT holds a solid pace advantage (<b>-2.403s/lap</b>), indicating superior tyre management.</li>
             </ul>
         </div>
         
@@ -437,7 +1854,7 @@
             <h3 style="margin: 0 0 5px 0; color: #e6edf3;">Aston Martin</h3>
             <div style="font-size: 0.9em; color: #8b949e; margin-bottom: 15px; font-weight:bold; letter-spacing: 1px;">ALO / STR</div>
             <ul style="margin: 0; padding-left: 20px; color: #ccc; line-height: 1.5;">
-                <li style="margin-bottom:8px;">Both drivers show very similar setup characteristics with negligible performance delta across the lap.</li>
+                <li style="margin-bottom:8px;"><b>Drag Efficiency:</b> Both drivers have identical straight-line performance (~323 kph), indicating matched wing levels.</li><li style="margin-bottom:8px;"><b>Braking Confidence:</b> ALO carries significantly more speed into T3 (+13.0kph), showing superior entry stability.</li><li style="margin-bottom:8px;"><b>Race Trim Advantage:</b> STR looks stronger in race simulations (<b>-4.028s/lap</b>).</li>
             </ul>
         </div>
         
@@ -445,7 +1862,7 @@
             <h3 style="margin: 0 0 5px 0; color: #e6edf3;">Ferrari</h3>
             <div style="font-size: 0.9em; color: #8b949e; margin-bottom: 15px; font-weight:bold; letter-spacing: 1px;">LEC / HAM</div>
             <ul style="margin: 0; padding-left: 20px; color: #ccc; line-height: 1.5;">
-                <li style="margin-bottom:8px;">Both drivers show very similar setup characteristics with negligible performance delta across the lap.</li>
+                <li style="margin-bottom:8px;"><b>Drag Efficiency:</b> Both drivers have identical straight-line performance (~323 kph), indicating matched wing levels.</li><li style="margin-bottom:8px;"><b>High Speed King:</b> LEC dominates high-speed sections (+5.0kph), suggesting a more confident aero balance or lower drag setup.</li><li style="margin-bottom:8px;"><b>Braking Confidence:</b> HAM attacks the braking zones harder (+10.6kph).</li><li style="margin-bottom:8px;"><b>Race Trim Advantage:</b> HAM looks stronger in race simulations (<b>-0.605s/lap</b>).</li>
             </ul>
         </div>
         
@@ -453,7 +1870,7 @@
             <h3 style="margin: 0 0 5px 0; color: #e6edf3;">Williams</h3>
             <div style="font-size: 0.9em; color: #8b949e; margin-bottom: 15px; font-weight:bold; letter-spacing: 1px;">ALB / SAI</div>
             <ul style="margin: 0; padding-left: 20px; color: #ccc; line-height: 1.5;">
-                <li style="margin-bottom:8px;">Both drivers show very similar setup characteristics with negligible performance delta across the lap.</li>
+                <li style="margin-bottom:8px;"><b>Straight Line Power:</b> SAI is faster on the straights (<b>324 vs 320 kph</b>).</li><li style="margin-bottom:8px;"><b>High Speed King:</b> SAI leads in high-speed sections (+7.0kph).</li><li style="margin-bottom:8px;"><b>Braking Confidence:</b> ALB carries significantly more speed into T3 (+11.0kph), showing superior entry stability.</li>
             </ul>
         </div>
         
@@ -461,7 +1878,7 @@
             <h3 style="margin: 0 0 5px 0; color: #e6edf3;">Haas F1 Team</h3>
             <div style="font-size: 0.9em; color: #8b949e; margin-bottom: 15px; font-weight:bold; letter-spacing: 1px;">OCO / BEA</div>
             <ul style="margin: 0; padding-left: 20px; color: #ccc; line-height: 1.5;">
-                <li style="margin-bottom:8px;">Both drivers show very similar setup characteristics with negligible performance delta across the lap.</li>
+                <li style="margin-bottom:8px;">Telemtry data unavailable for specific corner comparison. Verdict based on available lap times.</li>
             </ul>
         </div>
         </div></section>

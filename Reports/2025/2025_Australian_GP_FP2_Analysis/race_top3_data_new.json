@@ -1,0 +1,76 @@
+{
+  "race_top3_drivers_2022_2023": {
+    "available": true,
+    "years_data": [
+      {
+        "year": 2022,
+        "top3": [
+          {
+            "driver_code": "LEC",
+            "team": "Ferrari",
+            "position": 1,
+            "fastest_lap_seconds": 80.26
+          },
+          {
+            "driver_code": "PER",
+            "team": "Red Bull Racing",
+            "position": 2,
+            "fastest_lap_seconds": 81.094
+          },
+          {
+            "driver_code": "RUS",
+            "team": "Mercedes",
+            "position": 3,
+            "fastest_lap_seconds": 81.495
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "top3": [
+          {
+            "driver_code": "VER",
+            "team": "Red Bull Racing",
+            "position": 1,
+            "fastest_lap_seconds": 80.342
+          },
+          {
+            "driver_code": "HAM",
+            "team": "Mercedes",
+            "position": 2,
+            "fastest_lap_seconds": 80.613
+          },
+          {
+            "driver_code": "ALO",
+            "team": "Aston Martin",
+            "position": 3,
+            "fastest_lap_seconds": 80.476
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "top3": [
+          {
+            "driver_code": "SAI",
+            "team": "Ferrari",
+            "position": 1,
+            "fastest_lap_seconds": 80.031
+          },
+          {
+            "driver_code": "LEC",
+            "team": "Ferrari",
+            "position": 2,
+            "fastest_lap_seconds": 79.813
+          },
+          {
+            "driver_code": "NOR",
+            "team": "McLaren",
+            "position": 3,
+            "fastest_lap_seconds": 79.915
+          }
+        ]
+      }
+    ]
+  }
+}
