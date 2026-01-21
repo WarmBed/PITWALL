@@ -1,0 +1,102 @@
+{
+    "sc_probability": "66%",
+    "sc_risk_level": "High",
+    "total_red_flags": 1,
+    "total_safety_cars": 14,
+    "total_overtakes_2023": 60,
+    "key_risk": "T1 Lap 1 Chaos",
+    "years_analyzed": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+    ],
+    "corner_analysis": {
+        "T8": {
+            "corner_number": 8,
+            "yearly_breakdown": {
+                "2020": {
+                    "safety_car": 0,
+                    "red_flag": 0,
+                    "accident": 2
+                }
+            }
+        },
+        "T6": {
+            "corner_number": 6,
+            "yearly_breakdown": {
+                "2022": {
+                    "safety_car": 0,
+                    "red_flag": 0,
+                    "accident": 2
+                }
+            }
+        },
+        "T4": {
+            "corner_number": 4,
+            "yearly_breakdown": {
+                "2023": {
+                    "safety_car": 0,
+                    "red_flag": 0,
+                    "accident": 2
+                },
+                "2025": {
+                    "safety_car": 2,
+                    "red_flag": 0,
+                    "accident": 0
+                }
+            }
+        },
+        "T1": {
+            "corner_number": 1,
+            "yearly_breakdown": {
+                "2024": {
+                    "safety_car": 0,
+                    "red_flag": 0,
+                    "accident": 2
+                },
+                "2025": {
+                    "safety_car": 0,
+                    "red_flag": 0,
+                    "accident": 6
+                }
+            }
+        },
+        "T10": {
+            "corner_number": 10,
+            "yearly_breakdown": {}
+        },
+        "T13": {
+            "corner_number": 13,
+            "yearly_breakdown": {}
+        },
+        "T7": {
+            "corner_number": 7,
+            "yearly_breakdown": {}
+        },
+        "T15": {
+            "corner_number": 15,
+            "yearly_breakdown": {}
+        },
+        "T3": {
+            "corner_number": 3,
+            "yearly_breakdown": {}
+        },
+        "T11": {
+            "corner_number": 11,
+            "yearly_breakdown": {}
+        },
+        "T2": {
+            "corner_number": 2,
+            "yearly_breakdown": {
+                "2025": {
+                    "safety_car": 0,
+                    "red_flag": 0,
+                    "accident": 2
+                }
+            }
+        }
+    }
+}
